@@ -4874,7 +4874,8 @@ namespace STEP {
 
 #define DECL_CONV_STUB(type) template <> size_t GenericFill<IFC::type>(const STEP::DB& db, const EXPRESS::LIST& params, IFC::type* in)
 
-    DECL_CONV_STUB( IfcRoot );
+template <>
+    size_t GenericFill<IFC::IfcRoot>(const STEP::DB &db, const EXPRESS::LIST &params, IFC::IfcRoot *in)
     DECL_CONV_STUB( IfcObjectDefinition );
     DECL_CONV_STUB( IfcObject );
     DECL_CONV_STUB( IfcControl );

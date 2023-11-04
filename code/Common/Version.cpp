@@ -45,7 +45,6 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #include <assimp/scene.h>
 #include <assimp/version.h>
 
-#include "revision.h"
 
 // --------------------------------------------------------------------------------
 // Legal information string - don't remove this.
@@ -65,19 +64,19 @@ ASSIMP_API const char *aiGetLegalString() {
 // ------------------------------------------------------------------------------------------------
 // Get Assimp patch version
 ASSIMP_API unsigned int aiGetVersionPatch() {
-    return VER_PATCH;
+    return 1;
 }
 
 // ------------------------------------------------------------------------------------------------
 // Get Assimp minor version
 ASSIMP_API unsigned int aiGetVersionMinor() {
-    return VER_MINOR;
+    return 1;
 }
 
 // ------------------------------------------------------------------------------------------------
 // Get Assimp major version
 ASSIMP_API unsigned int aiGetVersionMajor() {
-    return VER_MAJOR;
+    return 1;
 }
 
 // ------------------------------------------------------------------------------------------------
@@ -110,12 +109,12 @@ ASSIMP_API unsigned int aiGetCompileFlags() {
 
 // ------------------------------------------------------------------------------------------------
 ASSIMP_API unsigned int aiGetVersionRevision() {
-    return GitVersion;
+    return 1;
 }
 
 // ------------------------------------------------------------------------------------------------
 ASSIMP_API const char *aiGetBranchName() {
-    return GitBranch;
+    return "idk";
 }
 
 // ------------------------------------------------------------------------------------------------

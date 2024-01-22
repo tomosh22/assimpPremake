@@ -1,0 +1,59 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.37.32825.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/contrib/zlib/contrib/minizip/ioapi.c"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "f6878a3ecf6802f0f75cadb41a114fa274636c386bac794c66cbb27a24d9a29f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/contrib/zlib/contrib/minizip/ioapi.h"
+          },
+          "hashes": {
+            "sha-256": "9f5448f8d5e8894d6f397dd09d24f7ff39cb818cd493a8bd90dda19553b814ea"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/contrib/zlib/zlib.h"
+          },
+          "hashes": {
+            "sha-256": "a980a0d104198a53cc220c51ab5856e5be901bec8a2d02e0ee79a8754219dfed"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/contrib/zlib/zconf.h"
+          },
+          "hashes": {
+            "sha-256": "7f4e7f02c4c1b7ef830a8b4331e1ba04f34e97f2c0dcdd81f967ff16fd5ee6d0"
+          }
+        }
+      ]
+    }
+  ]
+}

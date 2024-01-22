@@ -1,0 +1,133 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/zlib/contrib/minizip/miniunz.c"
+                },
+                "region": {
+                  "startLine": 299,
+                  "startColumn": 14,
+                  "endLine": 299,
+                  "endColumn": 16
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "do_list",
+                  "decoratedName": "do_list",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/zlib/contrib/minizip/miniunz.c"
+                },
+                "region": {
+                  "startLine": 497,
+                  "startColumn": 14,
+                  "endLine": 497,
+                  "endColumn": 16
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "do_extract",
+                  "decoratedName": "do_extract",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.37.32825.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/zlib/contrib/minizip/miniunz.c"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "b29dfb4cff9763497d8f0656c97027995e1ea0b4104e4a217ba7882337ae7a7a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/contrib/zlib/contrib/minizip/unzip.h"
+          },
+          "hashes": {
+            "sha-256": "20cdc47658a3e41db897d31650e46cd2c8cca3c83ddaaeb6c7a48dd8b7f18e03"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/contrib/zlib/zlib.h"
+          },
+          "hashes": {
+            "sha-256": "a980a0d104198a53cc220c51ab5856e5be901bec8a2d02e0ee79a8754219dfed"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/contrib/zlib/zconf.h"
+          },
+          "hashes": {
+            "sha-256": "7f4e7f02c4c1b7ef830a8b4331e1ba04f34e97f2c0dcdd81f967ff16fd5ee6d0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/contrib/zlib/contrib/minizip/ioapi.h"
+          },
+          "hashes": {
+            "sha-256": "9f5448f8d5e8894d6f397dd09d24f7ff39cb818cd493a8bd90dda19553b814ea"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/contrib/zlib/contrib/minizip/iowin32.h"
+          },
+          "hashes": {
+            "sha-256": "586f22b9c3c64da253ce2b518e0fad61f19a7b47b289fc704cc9708242294c49"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.37.32825.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/contrib/zlib/inftrees.c"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "b9db40bbb68b63dccbcdfa78d687751e33178af8669f1c1236309cfd5d2edc0e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/contrib/zlib/zutil.h"
+          },
+          "hashes": {
+            "sha-256": "cf94d865e3a9162c0571cba7f74c8f01efbdca26b981d6cc9c545d4c3991e3c2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/contrib/zlib/zlib.h"
+          },
+          "hashes": {
+            "sha-256": "a980a0d104198a53cc220c51ab5856e5be901bec8a2d02e0ee79a8754219dfed"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/contrib/zlib/zconf.h"
+          },
+          "hashes": {
+            "sha-256": "7f4e7f02c4c1b7ef830a8b4331e1ba04f34e97f2c0dcdd81f967ff16fd5ee6d0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/contrib/zlib/inftrees.h"
+          },
+          "hashes": {
+            "sha-256": "44084a93673386db6282dcb61d739c84518e10dff66d1c6850715137c827464c"
+          }
+        }
+      ]
+    }
+  ]
+}

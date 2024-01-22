@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\assimp\include\assimp\</FILEPATH>
+      <FILENAME>types.h</FILENAME>
+      <LINE>361</LINE>
+      <COLUMN>19</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>aiString::Append</FUNCTION>
+    <DECORATED>?Append@aiString@@QEAAXPEBD@Z</DECORATED>
+    <FUNCLINE>356</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\assimp\include\assimp\</FILEPATH>
+      <FILENAME>types.h</FILENAME>
+      <LINE>365</LINE>
+      <COLUMN>39</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>aiString::Append</FUNCTION>
+    <DECORATED>?Append@aiString@@QEAAXPEBD@Z</DECORATED>
+    <FUNCLINE>356</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\assimp\code\common\</FILEPATH>
+      <FILENAME>StandardShapes.cpp</FILENAME>
+      <LINE>93</LINE>
+      <COLUMN>38</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>Assimp::Subdivide</FUNCTION>
+    <DECORATED>?Subdivide@Assimp@@YAXAEAV?$vector@V?$aiVector3t@M@@V?$allocator@V?$aiVector3t@M@@@std@@@std@@@Z</DECORATED>
+    <FUNCLINE>86</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\assimp\code\common\</FILEPATH>
+      <FILENAME>StandardShapes.cpp</FILENAME>
+      <LINE>94</LINE>
+      <COLUMN>38</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>Assimp::Subdivide</FUNCTION>
+    <DECORATED>?Subdivide@Assimp@@YAXAEAV?$vector@V?$aiVector3t@M@@V?$allocator@V?$aiVector3t@M@@@std@@@std@@@Z</DECORATED>
+    <FUNCLINE>86</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\assimp\code\common\</FILEPATH>
+      <FILENAME>StandardShapes.cpp</FILENAME>
+      <LINE>355</LINE>
+      <COLUMN>44</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>Assimp::StandardShapes::MakeSphere</FUNCTION>
+    <DECORATED>?MakeSphere@StandardShapes@Assimp@@SAXIAEAV?$vector@V?$aiVector3t@M@@V?$allocator@V?$aiVector3t@M@@@std@@@std@@@Z</DECORATED>
+    <FUNCLINE>351</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\assimp\code\common\</FILEPATH>
+      <FILENAME>StandardShapes.cpp</FILENAME>
+      <LINE>391</LINE>
+      <COLUMN>27</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>Assimp::StandardShapes::MakeCone</FUNCTION>
+    <DECORATED>?MakeCone@StandardShapes@Assimp@@SAXMMMIAEAV?$vector@V?$aiVector3t@M@@V?$allocator@V?$aiVector3t@M@@@std@@@std@@_N@Z</DECORATED>
+    <FUNCLINE>368</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\assimp\code\common\</FILEPATH>
+      <FILENAME>StandardShapes.cpp</FILENAME>
+      <LINE>462</LINE>
+      <COLUMN>46</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>Assimp::StandardShapes::MakeCircle</FUNCTION>
+    <DECORATED>?MakeCircle@StandardShapes@Assimp@@SAXMIAEAV?$vector@V?$aiVector3t@M@@V?$allocator@V?$aiVector3t@M@@@std@@@std@@@Z</DECORATED>
+    <FUNCLINE>453</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

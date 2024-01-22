@@ -1,0 +1,789 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/include/assimp/types.h"
+                },
+                "region": {
+                  "startLine": 361,
+                  "startColumn": 13,
+                  "endLine": 361,
+                  "endColumn": 22
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "aiString::Append",
+                  "decoratedName": "?Append@aiString@@QEAAXPEBD@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/include/assimp/types.h"
+                },
+                "region": {
+                  "startLine": 365,
+                  "startColumn": 36,
+                  "endLine": 365,
+                  "endColumn": 42
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "aiString::Append",
+                  "decoratedName": "?Append@aiString@@QEAAXPEBD@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'rapidjson::internal::Double::<unnamed-tag>::u_' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/rapidjson/include/rapidjson/internal/ieee754.h"
+                },
+                "region": {
+                  "startLine": 25,
+                  "startColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "rapidjson::internal::Double::{ctor}",
+                  "decoratedName": "??0Double@internal@rapidjson@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "rapidjson::internal::Double::<unnamed-tag>::u_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'rapidjson::internal::Double::<unnamed-tag>::d_' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/rapidjson/include/rapidjson/internal/ieee754.h"
+                },
+                "region": {
+                  "startLine": 25,
+                  "startColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "rapidjson::internal::Double::{ctor}",
+                  "decoratedName": "??0Double@internal@rapidjson@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "rapidjson::internal::Double::<unnamed-tag>::d_"
+          }
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/rapidjson/include/rapidjson/internal/biginteger.h"
+                },
+                "region": {
+                  "startLine": 243,
+                  "startColumn": 49,
+                  "endLine": 243,
+                  "endColumn": 54
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "rapidjson::internal::BigInteger::ParseUint64",
+                  "decoratedName": "?ParseUint64@BigInteger@internal@rapidjson@@CA_KPEBD0@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/rapidjson/include/rapidjson/internal/diyfp.h"
+                },
+                "region": {
+                  "startLine": 121,
+                  "startColumn": 18,
+                  "endLine": 121,
+                  "endColumn": 27
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "rapidjson::internal::DiyFp::NormalizedBoundaries",
+                  "decoratedName": "?NormalizedBoundaries@DiyFp@internal@rapidjson@@QEBAXPEAU123@0@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/rapidjson/include/rapidjson/internal/diyfp.h"
+                },
+                "region": {
+                  "startLine": 142,
+                  "startColumn": 35,
+                  "endLine": 142,
+                  "endColumn": 39
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "rapidjson::internal::DiyFp::ToDouble",
+                  "decoratedName": "?ToDouble@DiyFp@internal@rapidjson@@QEBANXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/rapidjson/include/rapidjson/internal/diyfp.h"
+                },
+                "region": {
+                  "startLine": 227,
+                  "startColumn": 18,
+                  "endLine": 227,
+                  "endColumn": 24
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "rapidjson::internal::GetCachedPower",
+                  "decoratedName": "?GetCachedPower@internal@rapidjson@@YA?AUDiyFp@12@HPEAH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/rapidjson/include/rapidjson/internal/strtod.h"
+                },
+                "region": {
+                  "startLine": 138,
+                  "startColumn": 65,
+                  "endLine": 138,
+                  "endColumn": 79
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "rapidjson::internal::StrtodDiyFp",
+                  "decoratedName": "?StrtodDiyFp@internal@rapidjson@@YA_NPEBDHHPEAN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/rapidjson/include/rapidjson/internal/strtod.h"
+                },
+                "region": {
+                  "startLine": 176,
+                  "startColumn": 14,
+                  "endLine": 176,
+                  "endColumn": 39
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "rapidjson::internal::StrtodDiyFp",
+                  "decoratedName": "?StrtodDiyFp@internal@rapidjson@@YA_NPEBDHHPEAN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/rapidjson/include/rapidjson/internal/strtod.h"
+                },
+                "region": {
+                  "startLine": 180,
+                  "startColumn": 15,
+                  "endLine": 180,
+                  "endColumn": 25
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "rapidjson::internal::StrtodDiyFp",
+                  "decoratedName": "?StrtodDiyFp@internal@rapidjson@@YA_NPEBDHHPEAN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/code/AssetLib/glTF/glTFCommon.h"
+                },
+                "region": {
+                  "startLine": 208,
+                  "startColumn": 28,
+                  "endLine": 208,
+                  "endColumn": 34
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "glTFCommon::getCurrentAssetDir",
+                  "decoratedName": "?getCurrentAssetDir@glTFCommon@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV23@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26439",
+          "message": {
+            "text": "This kind of function should not throw. Declare it 'noexcept' (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/include/assimp/TinyFormatter.h"
+                },
+                "region": {
+                  "startLine": 98,
+                  "startColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Assimp::Formatter::basic_formatter<char,std::char_traits<char>,std::allocator<char> >::{ctor}",
+                  "decoratedName": "??0?$basic_formatter@DU?$char_traits@D@std@@V?$allocator@D@2@@Formatter@Assimp@@QEAA@$$QEAV012@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.37.32825.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/include/assimp/types.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "e30b21307ff777c0783111d5725238a44232a4e3939261b7a1a12fba615797f6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/rapidjson/include/rapidjson/internal/ieee754.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "00757a3dc2aad5b90d915f9c49b378026dc612d49a7f057106d72b1ebd1a0105"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/rapidjson/include/rapidjson/internal/biginteger.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "7771c3f2c82c4736d32b487558d19eaacf678e030945c5b5c994ae9ffa952755"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/rapidjson/include/rapidjson/internal/diyfp.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "2efb18fcfaf4882a23720b0e08fdbe3e94be3b282b6c5c017d18bfd205e80880"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/rapidjson/include/rapidjson/internal/strtod.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "ad524108ca9df43b73a4009c2a47255436403711b3e9c42b3b1ee0b32675a814"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/code/AssetLib/glTF/glTFCommon.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "e142082fdde4dcf80abc9a843747f6f8d33e34ded38206a5d91d65d0a97200a7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/include/assimp/TinyFormatter.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "71fdb70a9b79fd292d5ff1aaf94fc0d8c9a2a9ed3889076fc577c363a7aeb04f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/code/assetlib/gltf/gltfcommon.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "0cec1e210f4ab1f787e551ccb5b71dc4a78f9e484685c37a98980d69390e946e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/include/assimp/exceptional.h"
+          },
+          "hashes": {
+            "sha-256": "0eb156e781a34d57474ad8802d9f54892efe76e55e520749ffa5171d78d736b5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/include/assimp/defaultiostream.h"
+          },
+          "hashes": {
+            "sha-256": "2ea0a32349de4418f2733bf837fc758b1efb28206176a071d6ee0b5bd7149d43"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/include/assimp/iostream.hpp"
+          },
+          "hashes": {
+            "sha-256": "bb369e5b6c5d8669d7dc34371e5b5ae9eb373ecdefe08ba83ace7c011a72d97c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/include/assimp/defs.h"
+          },
+          "hashes": {
+            "sha-256": "e6a3197c83b51219226e7cffc72c04f53f7c1b6756995d27688d12ff6a40cab3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/include/assimp/config.h"
+          },
+          "hashes": {
+            "sha-256": "5c478cd5b5214ee94f137f90303ab98fb8e1aa20d3edb9fe1912af4ea9917b76"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/include/assimp/vector2.h"
+          },
+          "hashes": {
+            "sha-256": "04cba85b95e1309e20e94f55a55f50d9793351ece69c676f6c5ea635c77fd13d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/include/assimp/vector3.h"
+          },
+          "hashes": {
+            "sha-256": "a8f64cda37485d81ee3cb0b38c5e194c75a5bb5fd44ccc9bd95656d0d403e566"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/include/assimp/color4.h"
+          },
+          "hashes": {
+            "sha-256": "f87a273f074d94788c1642787b6f690050aff1b63f6a3c656742299cc346b03e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/include/assimp/matrix3x3.h"
+          },
+          "hashes": {
+            "sha-256": "633f105133331cd5e9007a23287d8cf47d6826d8b8702eef38707124523c3255"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/include/assimp/matrix4x4.h"
+          },
+          "hashes": {
+            "sha-256": "c5087434e26a2d43df04071226eee20e5ba0a5b7befbdb0b8820b603d8526668"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/include/assimp/quaternion.h"
+          },
+          "hashes": {
+            "sha-256": "39fc3ec394c9d36f825d0daf0623ba2d328d4222f84ddbece29ad86a6af14837"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/include/assimp/vector2.inl"
+          },
+          "hashes": {
+            "sha-256": "b91050c3846eb12dda636efa845f1c03f1de3accb66e80da3a24772c4069326c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/include/assimp/vector3.inl"
+          },
+          "hashes": {
+            "sha-256": "17a372068ac0cdef03ee8da5f488b40b1ba31f311d18afe52d38c06b2ed22a03"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/include/assimp/color4.inl"
+          },
+          "hashes": {
+            "sha-256": "45b1dc2bf83a2690582e089363509370da03cc0f3b02e7aafa9ee7fabb74804c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/include/assimp/matrix3x3.inl"
+          },
+          "hashes": {
+            "sha-256": "94823dfe931de9ed7026a20f9b0a8f6b1bbea73e20a5704a158d67d91eb4b70a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/include/assimp/matrix4x4.inl"
+          },
+          "hashes": {
+            "sha-256": "dc24150d60474c5d3c96ac088be4d60a3ca2d56484c554113b1383c8f5736d79"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/include/assimp/mathfunctions.h"
+          },
+          "hashes": {
+            "sha-256": "3e5540d720d1d67e988fd5595f15d70fe84f08abfdf010a26f3539be465d2f39"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/include/assimp/quaternion.inl"
+          },
+          "hashes": {
+            "sha-256": "22ab7525f7ed92f39a7038591fd21b65818a2300aaae685dd384f83cc59fdcba"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/include/assimp/importerdesc.h"
+          },
+          "hashes": {
+            "sha-256": "690b376a117a1b6b412f3b73425c3c736e61ac0306f33034017de97a17dc3665"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/contrib/rapidjson/include/rapidjson/document.h"
+          },
+          "hashes": {
+            "sha-256": "294226583c2807cb30342630bd894e1c5edc007c098d3fabda16f4908b1a85a2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/contrib/rapidjson/include/rapidjson/reader.h"
+          },
+          "hashes": {
+            "sha-256": "9902058538bcca216f57b74bb404fa666b1b8d9224acd5b173ab3189c68db6f0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/contrib/rapidjson/include/rapidjson/allocators.h"
+          },
+          "hashes": {
+            "sha-256": "8d231afd9f04a1ac8d4c90e2498a168eb36d75b363280eecde1253b40391de5d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/contrib/rapidjson/include/rapidjson/rapidjson.h"
+          },
+          "hashes": {
+            "sha-256": "c54fa417988693763bc17772c6b049328885006abfa055fb3cb2594f2ff85bfa"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/contrib/rapidjson/include/rapidjson/stream.h"
+          },
+          "hashes": {
+            "sha-256": "a3708a941a130a5679d2302368169852e5c4ca5f54758ea0e94caf61615c8ae0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/contrib/rapidjson/include/rapidjson/encodings.h"
+          },
+          "hashes": {
+            "sha-256": "1d4c62bd4ecc0b5a8b4b53faf48a8d09f09f086e41a90fc2b135517c3d148379"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/contrib/rapidjson/include/rapidjson/encodedstream.h"
+          },
+          "hashes": {
+            "sha-256": "394710616961270b0e4033c03a22b2e5b411958dc07eb4495ba36131648e3558"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/contrib/rapidjson/include/rapidjson/memorystream.h"
+          },
+          "hashes": {
+            "sha-256": "a7bf789978c6d7dda7bb93c0c9555b7d53b3177cbf34c3998c7e18068a3723f5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/contrib/rapidjson/include/rapidjson/internal/clzll.h"
+          },
+          "hashes": {
+            "sha-256": "4ca3e63eaae4c67b049e8a6cbb532182e1d9c9023b7d992c556fcab0c2f4c045"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/contrib/rapidjson/include/rapidjson/internal/meta.h"
+          },
+          "hashes": {
+            "sha-256": "5fcbfd72da1732926e4d0be2a1d79dce892f98d7b66879f818c57583a82505d3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/contrib/rapidjson/include/rapidjson/internal/stack.h"
+          },
+          "hashes": {
+            "sha-256": "1bc01f4623d7b4ed6e890220fa9753375c0f0fb87c8a84f41cd7eecf38a38cd2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/contrib/rapidjson/include/rapidjson/internal/swap.h"
+          },
+          "hashes": {
+            "sha-256": "72acfabebd33f44869e7724603e57744da33337998b32443b66eaba58d2bbbfd"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/contrib/rapidjson/include/rapidjson/internal/pow10.h"
+          },
+          "hashes": {
+            "sha-256": "74cd5ef251a854565a36abe49521be4d8ed17a76e3d27231fd119fb9374a9364"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/contrib/rapidjson/include/rapidjson/error/error.h"
+          },
+          "hashes": {
+            "sha-256": "64fdd0bad7480cd2a257fddf0aaa16b9a8d4a401189ebe0e44cee2ee6be8687c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/contrib/rapidjson/include/rapidjson/internal/strfunc.h"
+          },
+          "hashes": {
+            "sha-256": "9bcc71e2e8f7096325218cebd9aa5338d2c8539bddfc6324eec6d8037c466dbe"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/contrib/rapidjson/include/rapidjson/error/en.h"
+          },
+          "hashes": {
+            "sha-256": "dd2eeb00fe54ba5d140b581dd4467773c3ea72dbf6f2ef87135b187d6d11d6f7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/include/assimp/byteswapper.h"
+          },
+          "hashes": {
+            "sha-256": "9ca4a39f41eae678f778b8e4e3ed668a4f3d292bb4ed61d428a0f8938b0e4e68"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/include/assimp/ai_assert.h"
+          },
+          "hashes": {
+            "sha-256": "d1fd2e3cb5d692dcfcc6a403a69f71225289bea5631fc234d3c3d1c20e9dcbbb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/include/assimp/defaultiosystem.h"
+          },
+          "hashes": {
+            "sha-256": "f2e229f0b95469400f7e0a6a4bc1f99bad95ea2ef45ee9ffd5d1ec82a7e8cc83"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/include/assimp/iosystem.hpp"
+          },
+          "hashes": {
+            "sha-256": "803b6717da3a9141205f4edf37f60620c28847184fdcabac3da07b8b70f95209"
+          }
+        }
+      ]
+    }
+  ]
+}

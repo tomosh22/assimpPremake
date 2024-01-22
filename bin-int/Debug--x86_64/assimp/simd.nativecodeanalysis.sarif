@@ -1,0 +1,59 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.37.32825.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/code/common/simd.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "dc600ba50c349d644b2756ea31e80ef776ed2c6ae342820f92aa903815ffa328"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/code/common/simd.h"
+          },
+          "hashes": {
+            "sha-256": "1c0e5dc51f2c480c71f474faaa375a94ed3669407be4f6b0fb2ab67b1b51c2b5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/include/assimp/defs.h"
+          },
+          "hashes": {
+            "sha-256": "e6a3197c83b51219226e7cffc72c04f53f7c1b6756995d27688d12ff6a40cab3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/include/assimp/config.h"
+          },
+          "hashes": {
+            "sha-256": "5c478cd5b5214ee94f137f90303ab98fb8e1aa20d3edb9fe1912af4ea9917b76"
+          }
+        }
+      ]
+    }
+  ]
+}

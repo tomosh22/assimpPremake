@@ -1,0 +1,107 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.37.32825.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/code/assetlib/fbx/fbxutil.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "143e705c83fc9192b4138b236d166d75609811458c57d1783925591683439647"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/code/assetlib/fbx/fbxutil.h"
+          },
+          "hashes": {
+            "sha-256": "16fe3b9659491d46ed7ac25f89a631c181383a5190cb8767961ec4b6e274383d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/code/assetlib/fbx/fbxcompileconfig.h"
+          },
+          "hashes": {
+            "sha-256": "3247d29df682f78ad4969879e305215ad316112af76257fe161bcf554bfe0981"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/code/assetlib/fbx/fbxtokenizer.h"
+          },
+          "hashes": {
+            "sha-256": "7742d075a8ebb245f290f6f6b033056bed2b58bf7224860a467f47fbec64b0c2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/code/common/stackallocator.h"
+          },
+          "hashes": {
+            "sha-256": "13bb8c3792739056a151576f5d1138447684a2a5b4df451b46f7f291680a9480"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/code/common/stackallocator.inl"
+          },
+          "hashes": {
+            "sha-256": "4b66a07da764ceb2a5d3291d5d7cf9ec1a3485a15cbdc17bb65542db92e997ab"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/include/assimp/ai_assert.h"
+          },
+          "hashes": {
+            "sha-256": "d1fd2e3cb5d692dcfcc6a403a69f71225289bea5631fc234d3c3d1c20e9dcbbb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/include/assimp/defs.h"
+          },
+          "hashes": {
+            "sha-256": "e6a3197c83b51219226e7cffc72c04f53f7c1b6756995d27688d12ff6a40cab3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/include/assimp/config.h"
+          },
+          "hashes": {
+            "sha-256": "5c478cd5b5214ee94f137f90303ab98fb8e1aa20d3edb9fe1912af4ea9917b76"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/include/assimp/tinyformatter.h"
+          },
+          "hashes": {
+            "sha-256": "71fdb70a9b79fd292d5ff1aaf94fc0d8c9a2a9ed3889076fc577c363a7aeb04f"
+          }
+        }
+      ]
+    }
+  ]
+}

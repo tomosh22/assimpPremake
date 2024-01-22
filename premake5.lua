@@ -15,7 +15,8 @@ project "assimp"
 		"code/PBR/*.cpp",
 		"code/PostProcessing/*.cpp",
 		"code/AssetLib/Obj/*.cpp",
-		
+		"code/AssetLib/fbx/*.cpp",
+		"contrib/zlib/*.c",
 	}
 	
 	includedirs{
@@ -44,7 +45,6 @@ project "assimp"
 		"ASSIMP_BUILD_NO_GLTF2_IMPORTER",
 		"ASSIMP_BUILD_NO_GLTF1_IMPORTER",
 		"ASSIMP_BUILD_NO_ASSBIN_IMPORTER",
-		"ASSIMP_BUILD_NO_FBX_IMPORTER",
 		"ASSIMP_BUILD_NO_XGL_IMPORTER",
 		"ASSIMP_BUILD_NO_IFC_IMPORTER",
 		"ASSIMP_BUILD_NO_NDO_IMPORTER",

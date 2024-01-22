@@ -1,0 +1,123 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/include/assimp/ParsingUtils.h"
+                },
+                "region": {
+                  "startLine": 207,
+                  "startColumn": 15,
+                  "endLine": 207,
+                  "endColumn": 21
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Assimp::TokenMatchI",
+                  "decoratedName": "?TokenMatchI@Assimp@@YA_NAEAPEBDPEBDI@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.37.32825.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/include/assimp/ParsingUtils.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "baf72d203dd4c32d69a816cfa71b3c899e6159e6d707d9e096827415375ed955"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/code/common/removecomments.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "f467f9a8fcd18b31dd4e8504a6fe091440be7e6742f40226de0b5561965541f9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/include/assimp/removecomments.h"
+          },
+          "hashes": {
+            "sha-256": "de2a4d88b07dfc284b2ff9b95b4461b8895b741171e3a36a0dc7130acdd5f53e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/include/assimp/defs.h"
+          },
+          "hashes": {
+            "sha-256": "e6a3197c83b51219226e7cffc72c04f53f7c1b6756995d27688d12ff6a40cab3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/include/assimp/config.h"
+          },
+          "hashes": {
+            "sha-256": "5c478cd5b5214ee94f137f90303ab98fb8e1aa20d3edb9fe1912af4ea9917b76"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/include/assimp/stringcomparison.h"
+          },
+          "hashes": {
+            "sha-256": "7d47aa0dad00877eb0f89b5865c54c47b7b60d6b3449e40a65ce895788af9610"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/include/assimp/ai_assert.h"
+          },
+          "hashes": {
+            "sha-256": "d1fd2e3cb5d692dcfcc6a403a69f71225289bea5631fc234d3c3d1c20e9dcbbb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/include/assimp/stringutils.h"
+          },
+          "hashes": {
+            "sha-256": "d9837833693a640671f8b26f84653bbf8e06580f89df6804dad6d77f2d52874b"
+          }
+        }
+      ]
+    }
+  ]
+}

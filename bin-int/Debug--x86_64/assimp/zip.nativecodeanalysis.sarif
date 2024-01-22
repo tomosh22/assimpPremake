@@ -1,0 +1,534 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/zlib/contrib/minizip/zip.c"
+                },
+                "region": {
+                  "startLine": 801,
+                  "startColumn": 37
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "LoadCentralDirectoryRecord",
+                  "decoratedName": "LoadCentralDirectoryRecord",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6262",
+          "message": {
+            "text": "Function uses '65936' bytes of stack.  Consider moving some data to heap."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/zlib/contrib/minizip/zip.c"
+                },
+                "region": {
+                  "startLine": 849,
+                  "startColumn": 24
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "zipOpen3",
+                  "decoratedName": "zipOpen3",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/zlib/contrib/minizip/zip.c"
+                },
+                "region": {
+                  "startLine": 1136,
+                  "startColumn": 36
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "zipOpenNewFileInZip4_64",
+                  "decoratedName": "zipOpenNewFileInZip4_64",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6387",
+          "message": {
+            "text": "'pTmp' could be '0'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/zlib/contrib/minizip/zip.c"
+                },
+                "region": {
+                  "startLine": 1975,
+                  "startColumn": 7,
+                  "endLine": 1975,
+                  "endColumn": 34
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "zipRemoveExtraInfoBlock",
+                  "decoratedName": "zipRemoveExtraInfoBlock",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/zlib/contrib/minizip/zip.c"
+                          },
+                          "region": {
+                            "startLine": 1948,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/zlib/contrib/minizip/zip.c"
+                          },
+                          "region": {
+                            "startLine": 1949,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/zlib/contrib/minizip/zip.c"
+                          },
+                          "region": {
+                            "startLine": 1950,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/zlib/contrib/minizip/zip.c"
+                          },
+                          "region": {
+                            "startLine": 1951,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/zlib/contrib/minizip/zip.c"
+                          },
+                          "region": {
+                            "startLine": 1952,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/zlib/contrib/minizip/zip.c"
+                          },
+                          "region": {
+                            "startLine": 1953,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/zlib/contrib/minizip/zip.c"
+                          },
+                          "region": {
+                            "startLine": 1955,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/zlib/contrib/minizip/zip.c"
+                          },
+                          "region": {
+                            "startLine": 1957,
+                            "startColumn": 39
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/zlib/contrib/minizip/zip.c"
+                          },
+                          "region": {
+                            "startLine": 1960,
+                            "startColumn": 14
+                          }
+                        },
+                        "message": {
+                          "text": "'pNewHeader' may be NULL"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/zlib/contrib/minizip/zip.c"
+                          },
+                          "region": {
+                            "startLine": 1961,
+                            "startColumn": 8
+                          }
+                        },
+                        "message": {
+                          "text": "(alias) 'pTmp' receives the value of 'pNewHeader' (which may be NULL)"
+                        }
+                      },
+                      "kinds": [
+                        "alias"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/zlib/contrib/minizip/zip.c"
+                          },
+                          "region": {
+                            "startLine": 1963,
+                            "startColumn": 11
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this loop, (assume 'p<((pData+*dataLen))')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/zlib/contrib/minizip/zip.c"
+                          },
+                          "region": {
+                            "startLine": 1965,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/zlib/contrib/minizip/zip.c"
+                          },
+                          "region": {
+                            "startLine": 1966,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/zlib/contrib/minizip/zip.c"
+                          },
+                          "region": {
+                            "startLine": 1968,
+                            "startColumn": 16
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume 'header==sHeader' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/zlib/contrib/minizip/zip.c"
+                          },
+                          "region": {
+                            "startLine": 1975,
+                            "startColumn": 7
+                          }
+                        },
+                        "message": {
+                          "text": "'pTmp' is an In/Out argument to 'memcpy' (declared at c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.37.32822\\include\\vcruntime_string.h:43)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/zlib/contrib/minizip/zip.c"
+                          },
+                          "region": {
+                            "startLine": 1975,
+                            "startColumn": 7
+                          }
+                        },
+                        "message": {
+                          "text": "'pTmp' should not be NULL, because this is not consistent with the SAL annotation on 'memcpy'"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/zlib/contrib/minizip/zip.c"
+                },
+                "region": {
+                  "startLine": 1970,
+                  "startColumn": 12,
+                  "endLine": 1970,
+                  "endColumn": 23
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "zipRemoveExtraInfoBlock",
+                  "decoratedName": "zipRemoveExtraInfoBlock",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/zlib/contrib/minizip/zip.c"
+                },
+                "region": {
+                  "startLine": 1975,
+                  "startColumn": 23,
+                  "endLine": 1975,
+                  "endColumn": 34
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "zipRemoveExtraInfoBlock",
+                  "decoratedName": "zipRemoveExtraInfoBlock",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/zlib/contrib/minizip/zip.c"
+                },
+                "region": {
+                  "startLine": 1976,
+                  "startColumn": 12,
+                  "endLine": 1976,
+                  "endColumn": 23
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "zipRemoveExtraInfoBlock",
+                  "decoratedName": "zipRemoveExtraInfoBlock",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.37.32825.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/zlib/contrib/minizip/zip.c"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "bee2d6fa310c9451b24c036d5840a8c7c90b7cf8d12d5767175c207e56fefcc3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/contrib/zlib/zlib.h"
+          },
+          "hashes": {
+            "sha-256": "a980a0d104198a53cc220c51ab5856e5be901bec8a2d02e0ee79a8754219dfed"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/contrib/zlib/zconf.h"
+          },
+          "hashes": {
+            "sha-256": "7f4e7f02c4c1b7ef830a8b4331e1ba04f34e97f2c0dcdd81f967ff16fd5ee6d0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/contrib/zlib/contrib/minizip/zip.h"
+          },
+          "hashes": {
+            "sha-256": "75b635dca8294790ab7ec1f72e9f1fd352d75b189c3c9b61c68f76bd7e612043"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/contrib/zlib/contrib/minizip/ioapi.h"
+          },
+          "hashes": {
+            "sha-256": "9f5448f8d5e8894d6f397dd09d24f7ff39cb818cd493a8bd90dda19553b814ea"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/contrib/zlib/contrib/minizip/crypt.h"
+          },
+          "hashes": {
+            "sha-256": "1d25a0fab3189dc3c6ae43c7813e1e5d07d0d049bd32bd7bd0e9ccd752bfdd5e"
+          }
+        }
+      ]
+    }
+  ]
+}

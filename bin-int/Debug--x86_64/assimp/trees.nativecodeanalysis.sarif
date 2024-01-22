@@ -1,0 +1,1544 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C6385",
+          "message": {
+            "text": "Reading invalid data from 's->bl_count'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/zlib/trees.c"
+                },
+                "region": {
+                  "startLine": 534,
+                  "startColumn": 16,
+                  "endLine": 534,
+                  "endColumn": 37
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "gen_bitlen",
+                  "decoratedName": "gen_bitlen",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/zlib/trees.c"
+                          },
+                          "region": {
+                            "startLine": 490,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/zlib/trees.c"
+                          },
+                          "region": {
+                            "startLine": 491,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/zlib/trees.c"
+                          },
+                          "region": {
+                            "startLine": 492,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/zlib/trees.c"
+                          },
+                          "region": {
+                            "startLine": 493,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/zlib/trees.c"
+                          },
+                          "region": {
+                            "startLine": 494,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/zlib/trees.c"
+                          },
+                          "region": {
+                            "startLine": 495,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/zlib/trees.c"
+                          },
+                          "region": {
+                            "startLine": 496,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/zlib/trees.c"
+                          },
+                          "region": {
+                            "startLine": 497,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/zlib/trees.c"
+                          },
+                          "region": {
+                            "startLine": 497,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/zlib/trees.c"
+                          },
+                          "region": {
+                            "startLine": 498,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/zlib/trees.c"
+                          },
+                          "region": {
+                            "startLine": 499,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/zlib/trees.c"
+                          },
+                          "region": {
+                            "startLine": 500,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/zlib/trees.c"
+                          },
+                          "region": {
+                            "startLine": 501,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/zlib/trees.c"
+                          },
+                          "region": {
+                            "startLine": 503,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/zlib/trees.c"
+                          },
+                          "region": {
+                            "startLine": 503,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/zlib/trees.c"
+                          },
+                          "region": {
+                            "startLine": 503,
+                            "startColumn": 64
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/zlib/trees.c"
+                          },
+                          "region": {
+                            "startLine": 503,
+                            "startColumn": 42
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/zlib/trees.c"
+                          },
+                          "region": {
+                            "startLine": 503,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/zlib/trees.c"
+                          },
+                          "region": {
+                            "startLine": 503,
+                            "startColumn": 64
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/zlib/trees.c"
+                          },
+                          "region": {
+                            "startLine": 503,
+                            "startColumn": 42
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/zlib/trees.c"
+                          },
+                          "region": {
+                            "startLine": 503,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/zlib/trees.c"
+                          },
+                          "region": {
+                            "startLine": 508,
+                            "startColumn": 36
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/zlib/trees.c"
+                          },
+                          "region": {
+                            "startLine": 510,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/zlib/trees.c"
+                          },
+                          "region": {
+                            "startLine": 510,
+                            "startColumn": 33
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this loop, (assume 'h<((2*((256+1+29))+1))')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/zlib/trees.c"
+                          },
+                          "region": {
+                            "startLine": 511,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/zlib/trees.c"
+                          },
+                          "region": {
+                            "startLine": 512,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/zlib/trees.c"
+                          },
+                          "region": {
+                            "startLine": 513,
+                            "startColumn": 18
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this branch, (assume 'bits>max_length')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/zlib/trees.c"
+                          },
+                          "region": {
+                            "startLine": 513,
+                            "startColumn": 37
+                          }
+                        },
+                        "message": {
+                          "text": "(alias) 'bits' receives the value of 'max_length'"
+                        }
+                      },
+                      "kinds": [
+                        "alias"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/zlib/trees.c"
+                          },
+                          "region": {
+                            "startLine": 513,
+                            "startColumn": 59
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/zlib/trees.c"
+                          },
+                          "region": {
+                            "startLine": 514,
+                            "startColumn": 21
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/zlib/trees.c"
+                          },
+                          "region": {
+                            "startLine": 517,
+                            "startColumn": 15
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume 'n>max_code' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/zlib/trees.c"
+                          },
+                          "region": {
+                            "startLine": 519,
+                            "startColumn": 26
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/zlib/trees.c"
+                          },
+                          "region": {
+                            "startLine": 520,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/zlib/trees.c"
+                          },
+                          "region": {
+                            "startLine": 521,
+                            "startColumn": 15
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume 'n>=base' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/zlib/trees.c"
+                          },
+                          "region": {
+                            "startLine": 522,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/zlib/trees.c"
+                          },
+                          "region": {
+                            "startLine": 523,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/zlib/trees.c"
+                          },
+                          "region": {
+                            "startLine": 524,
+                            "startColumn": 13
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume 'stree' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/zlib/trees.c"
+                          },
+                          "region": {
+                            "startLine": 510,
+                            "startColumn": 47
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/zlib/trees.c"
+                          },
+                          "region": {
+                            "startLine": 510,
+                            "startColumn": 33
+                          }
+                        },
+                        "message": {
+                          "text": "Exit this loop, ('h<((2*((256+1+29))+1))' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/zlib/trees.c"
+                          },
+                          "region": {
+                            "startLine": 526,
+                            "startColumn": 18
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume 'overflow==0' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/zlib/trees.c"
+                          },
+                          "region": {
+                            "startLine": 533,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/zlib/trees.c"
+                          },
+                          "region": {
+                            "startLine": 534,
+                            "startColumn": 34
+                          }
+                        },
+                        "message": {
+                          "text": "Invalid read from 's->bl_count[-1]', (readable range is 0 to 15)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6385",
+          "message": {
+            "text": "Reading invalid data from 's->bl_count'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/zlib/trees.c"
+                },
+                "region": {
+                  "startLine": 550,
+                  "startColumn": 9,
+                  "endLine": 550,
+                  "endColumn": 25
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "gen_bitlen",
+                  "decoratedName": "gen_bitlen",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/zlib/trees.c"
+                          },
+                          "region": {
+                            "startLine": 490,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/zlib/trees.c"
+                          },
+                          "region": {
+                            "startLine": 491,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/zlib/trees.c"
+                          },
+                          "region": {
+                            "startLine": 492,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/zlib/trees.c"
+                          },
+                          "region": {
+                            "startLine": 493,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/zlib/trees.c"
+                          },
+                          "region": {
+                            "startLine": 494,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/zlib/trees.c"
+                          },
+                          "region": {
+                            "startLine": 495,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/zlib/trees.c"
+                          },
+                          "region": {
+                            "startLine": 496,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/zlib/trees.c"
+                          },
+                          "region": {
+                            "startLine": 497,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/zlib/trees.c"
+                          },
+                          "region": {
+                            "startLine": 497,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/zlib/trees.c"
+                          },
+                          "region": {
+                            "startLine": 498,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/zlib/trees.c"
+                          },
+                          "region": {
+                            "startLine": 499,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/zlib/trees.c"
+                          },
+                          "region": {
+                            "startLine": 500,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/zlib/trees.c"
+                          },
+                          "region": {
+                            "startLine": 501,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/zlib/trees.c"
+                          },
+                          "region": {
+                            "startLine": 503,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/zlib/trees.c"
+                          },
+                          "region": {
+                            "startLine": 503,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/zlib/trees.c"
+                          },
+                          "region": {
+                            "startLine": 503,
+                            "startColumn": 64
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/zlib/trees.c"
+                          },
+                          "region": {
+                            "startLine": 503,
+                            "startColumn": 42
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/zlib/trees.c"
+                          },
+                          "region": {
+                            "startLine": 503,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/zlib/trees.c"
+                          },
+                          "region": {
+                            "startLine": 503,
+                            "startColumn": 64
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/zlib/trees.c"
+                          },
+                          "region": {
+                            "startLine": 503,
+                            "startColumn": 42
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/zlib/trees.c"
+                          },
+                          "region": {
+                            "startLine": 503,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/zlib/trees.c"
+                          },
+                          "region": {
+                            "startLine": 508,
+                            "startColumn": 36
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/zlib/trees.c"
+                          },
+                          "region": {
+                            "startLine": 510,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/zlib/trees.c"
+                          },
+                          "region": {
+                            "startLine": 510,
+                            "startColumn": 33
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this loop, (assume 'h<((2*((256+1+29))+1))')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/zlib/trees.c"
+                          },
+                          "region": {
+                            "startLine": 511,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/zlib/trees.c"
+                          },
+                          "region": {
+                            "startLine": 512,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/zlib/trees.c"
+                          },
+                          "region": {
+                            "startLine": 513,
+                            "startColumn": 18
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this branch, (assume 'bits>max_length')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/zlib/trees.c"
+                          },
+                          "region": {
+                            "startLine": 513,
+                            "startColumn": 37
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/zlib/trees.c"
+                          },
+                          "region": {
+                            "startLine": 513,
+                            "startColumn": 59
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/zlib/trees.c"
+                          },
+                          "region": {
+                            "startLine": 514,
+                            "startColumn": 21
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/zlib/trees.c"
+                          },
+                          "region": {
+                            "startLine": 517,
+                            "startColumn": 15
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume 'n>max_code' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/zlib/trees.c"
+                          },
+                          "region": {
+                            "startLine": 519,
+                            "startColumn": 26
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/zlib/trees.c"
+                          },
+                          "region": {
+                            "startLine": 520,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/zlib/trees.c"
+                          },
+                          "region": {
+                            "startLine": 521,
+                            "startColumn": 15
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume 'n>=base' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/zlib/trees.c"
+                          },
+                          "region": {
+                            "startLine": 522,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/zlib/trees.c"
+                          },
+                          "region": {
+                            "startLine": 523,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/zlib/trees.c"
+                          },
+                          "region": {
+                            "startLine": 524,
+                            "startColumn": 13
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume 'stree' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/zlib/trees.c"
+                          },
+                          "region": {
+                            "startLine": 510,
+                            "startColumn": 47
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/zlib/trees.c"
+                          },
+                          "region": {
+                            "startLine": 510,
+                            "startColumn": 33
+                          }
+                        },
+                        "message": {
+                          "text": "Exit this loop, ('h<((2*((256+1+29))+1))' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/zlib/trees.c"
+                          },
+                          "region": {
+                            "startLine": 526,
+                            "startColumn": 18
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume 'overflow==0' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/zlib/trees.c"
+                          },
+                          "region": {
+                            "startLine": 533,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/zlib/trees.c"
+                          },
+                          "region": {
+                            "startLine": 534,
+                            "startColumn": 34
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this loop, (assume 's->bl_count[bits]==0' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/zlib/trees.c"
+                          },
+                          "region": {
+                            "startLine": 535,
+                            "startColumn": 26
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/zlib/trees.c"
+                          },
+                          "region": {
+                            "startLine": 536,
+                            "startColumn": 31
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/zlib/trees.c"
+                          },
+                          "region": {
+                            "startLine": 537,
+                            "startColumn": 32
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/zlib/trees.c"
+                          },
+                          "region": {
+                            "startLine": 541,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/zlib/trees.c"
+                          },
+                          "region": {
+                            "startLine": 542,
+                            "startColumn": 23
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this loop, (assume 'overflow>0' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/zlib/trees.c"
+                          },
+                          "region": {
+                            "startLine": 549,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/zlib/trees.c"
+                          },
+                          "region": {
+                            "startLine": 549,
+                            "startColumn": 34
+                          }
+                        },
+                        "message": {
+                          "text": "'bits' may be NULL (Enter this loop)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/zlib/trees.c"
+                          },
+                          "region": {
+                            "startLine": 550,
+                            "startColumn": 11
+                          }
+                        },
+                        "message": {
+                          "text": "Invalid read from 's->bl_count[-1]', (readable range is 0 to 15)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.37.32825.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/zlib/trees.c"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "b338f1ec9038bd77efc09c8fdb99ef27b5db5b3da9baa301e544adc8e3b6a662"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/contrib/zlib/deflate.h"
+          },
+          "hashes": {
+            "sha-256": "0db1b5ef79ca6ba0f508b7b8bdaa11af45c5ebe2c89ab4f1086dc22b963a52fa"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/contrib/zlib/zutil.h"
+          },
+          "hashes": {
+            "sha-256": "cf94d865e3a9162c0571cba7f74c8f01efbdca26b981d6cc9c545d4c3991e3c2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/contrib/zlib/zlib.h"
+          },
+          "hashes": {
+            "sha-256": "a980a0d104198a53cc220c51ab5856e5be901bec8a2d02e0ee79a8754219dfed"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/contrib/zlib/zconf.h"
+          },
+          "hashes": {
+            "sha-256": "7f4e7f02c4c1b7ef830a8b4331e1ba04f34e97f2c0dcdd81f967ff16fd5ee6d0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/contrib/zlib/trees.h"
+          },
+          "hashes": {
+            "sha-256": "bb0a9d3ca88ee00c81adb7c636e73b97085f6ef1b52d6d58edbe2b6dc3adeb4d"
+          }
+        }
+      ]
+    }
+  ]
+}

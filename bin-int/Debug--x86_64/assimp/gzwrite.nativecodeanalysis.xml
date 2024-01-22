@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\assimp\contrib\zlib\</FILEPATH>
+      <FILENAME>gzwrite.c</FILENAME>
+      <LINE>24</LINE>
+      <COLUMN>52</COLUMN>
+    </SFA>
+    <DEFECTCODE>6297</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow.  Results might not be an expected value.</DESCRIPTION>
+    <FUNCTION>gz_init</FUNCTION>
+    <DECORATED>gz_init</DECORATED>
+    <FUNCLINE>17</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\assimp\contrib\zlib\</FILEPATH>
+      <FILENAME>gzwrite.c</FILENAME>
+      <LINE>24</LINE>
+      <COLUMN>52</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '&lt;&lt;' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '&lt;&lt;' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>gz_init</FUNCTION>
+    <DECORATED>gz_init</DECORATED>
+    <FUNCLINE>17</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

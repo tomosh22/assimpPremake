@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\assimp\include\assimp\</FILEPATH>
+      <FILENAME>types.h</FILENAME>
+      <LINE>361</LINE>
+      <COLUMN>19</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>aiString::Append</FUNCTION>
+    <DECORATED>?Append@aiString@@QEAAXPEBD@Z</DECORATED>
+    <FUNCLINE>356</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\assimp\include\assimp\</FILEPATH>
+      <FILENAME>types.h</FILENAME>
+      <LINE>365</LINE>
+      <COLUMN>39</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>aiString::Append</FUNCTION>
+    <DECORATED>?Append@aiString@@QEAAXPEBD@Z</DECORATED>
+    <FUNCLINE>356</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\assimp\code\common\</FILEPATH>
+      <FILENAME>SpatialSort.cpp</FILENAME>
+      <LINE>116</LINE>
+      <COLUMN>85</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>Assimp::SpatialSort::Append</FUNCTION>
+    <DECORATED>?Append@SpatialSort@Assimp@@QEAAXPEBV?$aiVector3t@M@@II_N@Z</DECORATED>
+    <FUNCLINE>107</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

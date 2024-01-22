@@ -1,0 +1,4147 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/include/assimp/types.h"
+                },
+                "region": {
+                  "startLine": 361,
+                  "startColumn": 13,
+                  "endLine": 361,
+                  "endColumn": 22
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "aiString::Append",
+                  "decoratedName": "?Append@aiString@@QEAAXPEBD@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/include/assimp/types.h"
+                },
+                "region": {
+                  "startLine": 365,
+                  "startColumn": 36,
+                  "endLine": 365,
+                  "endColumn": 42
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "aiString::Append",
+                  "decoratedName": "?Append@aiString@@QEAAXPEBD@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'rapidjson::internal::Double::<unnamed-tag>::d_' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/rapidjson/include/rapidjson/internal/ieee754.h"
+                },
+                "region": {
+                  "startLine": 25,
+                  "startColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "rapidjson::internal::Double::{ctor}",
+                  "decoratedName": "??0Double@internal@rapidjson@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "rapidjson::internal::Double::<unnamed-tag>::d_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'rapidjson::internal::Double::<unnamed-tag>::u_' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/rapidjson/include/rapidjson/internal/ieee754.h"
+                },
+                "region": {
+                  "startLine": 25,
+                  "startColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "rapidjson::internal::Double::{ctor}",
+                  "decoratedName": "??0Double@internal@rapidjson@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "rapidjson::internal::Double::<unnamed-tag>::u_"
+          }
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/rapidjson/include/rapidjson/internal/biginteger.h"
+                },
+                "region": {
+                  "startLine": 243,
+                  "startColumn": 49,
+                  "endLine": 243,
+                  "endColumn": 54
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "rapidjson::internal::BigInteger::ParseUint64",
+                  "decoratedName": "?ParseUint64@BigInteger@internal@rapidjson@@CA_KPEBD0@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/rapidjson/include/rapidjson/internal/diyfp.h"
+                },
+                "region": {
+                  "startLine": 121,
+                  "startColumn": 18,
+                  "endLine": 121,
+                  "endColumn": 27
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "rapidjson::internal::DiyFp::NormalizedBoundaries",
+                  "decoratedName": "?NormalizedBoundaries@DiyFp@internal@rapidjson@@QEBAXPEAU123@0@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/rapidjson/include/rapidjson/internal/diyfp.h"
+                },
+                "region": {
+                  "startLine": 142,
+                  "startColumn": 35,
+                  "endLine": 142,
+                  "endColumn": 39
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "rapidjson::internal::DiyFp::ToDouble",
+                  "decoratedName": "?ToDouble@DiyFp@internal@rapidjson@@QEBANXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/rapidjson/include/rapidjson/internal/diyfp.h"
+                },
+                "region": {
+                  "startLine": 227,
+                  "startColumn": 18,
+                  "endLine": 227,
+                  "endColumn": 24
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "rapidjson::internal::GetCachedPower",
+                  "decoratedName": "?GetCachedPower@internal@rapidjson@@YA?AUDiyFp@12@HPEAH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/rapidjson/include/rapidjson/internal/strtod.h"
+                },
+                "region": {
+                  "startLine": 138,
+                  "startColumn": 65,
+                  "endLine": 138,
+                  "endColumn": 79
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "rapidjson::internal::StrtodDiyFp",
+                  "decoratedName": "?StrtodDiyFp@internal@rapidjson@@YA_NPEBDHHPEAN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/rapidjson/include/rapidjson/internal/strtod.h"
+                },
+                "region": {
+                  "startLine": 176,
+                  "startColumn": 14,
+                  "endLine": 176,
+                  "endColumn": 39
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "rapidjson::internal::StrtodDiyFp",
+                  "decoratedName": "?StrtodDiyFp@internal@rapidjson@@YA_NPEBDHHPEAN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/rapidjson/include/rapidjson/internal/strtod.h"
+                },
+                "region": {
+                  "startLine": 180,
+                  "startColumn": 15,
+                  "endLine": 180,
+                  "endColumn": 25
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "rapidjson::internal::StrtodDiyFp",
+                  "decoratedName": "?StrtodDiyFp@internal@rapidjson@@YA_NPEBDHHPEAN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/code/AssetLib/glTF/glTFCommon.h"
+                },
+                "region": {
+                  "startLine": 208,
+                  "startColumn": 28,
+                  "endLine": 208,
+                  "endColumn": 34
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "glTFCommon::getCurrentAssetDir",
+                  "decoratedName": "?getCurrentAssetDir@glTFCommon@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV23@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'glTF::TexProperty::color' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/code/AssetLib/glTF/glTFAsset.h"
+                },
+                "region": {
+                  "startLine": 563,
+                  "startColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "glTF::TexProperty::{ctor}",
+                  "decoratedName": "??0TexProperty@glTF@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "glTF::TexProperty::color"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'glTF::Asset::mBodyLength' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/code/AssetLib/glTF/glTFAsset.h"
+                },
+                "region": {
+                  "startLine": 970,
+                  "startColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "glTF::Asset::{ctor}",
+                  "decoratedName": "??0Asset@glTF@@QEAA@PEAVIOSystem@Assimp@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "glTF::Asset::mBodyLength"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'glTF::Asset::mBodyOffset' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/code/AssetLib/glTF/glTFAsset.h"
+                },
+                "region": {
+                  "startLine": 970,
+                  "startColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "glTF::Asset::{ctor}",
+                  "decoratedName": "??0Asset@glTF@@QEAA@PEAVIOSystem@Assimp@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "glTF::Asset::mBodyOffset"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'glTF::Asset::mSceneLength' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/code/AssetLib/glTF/glTFAsset.h"
+                },
+                "region": {
+                  "startLine": 970,
+                  "startColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "glTF::Asset::{ctor}",
+                  "decoratedName": "??0Asset@glTF@@QEAA@PEAVIOSystem@Assimp@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "glTF::Asset::mSceneLength"
+          }
+        },
+        {
+          "ruleId": "C26813",
+          "message": {
+            "text": "Use 'bitwise and' to check if a flag is set."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/include/assimp/MemoryIOWrapper.h"
+                },
+                "region": {
+                  "startLine": 106,
+                  "startColumn": 20,
+                  "endLine": 106,
+                  "endColumn": 36
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Assimp::MemoryIOStream::Seek",
+                  "decoratedName": "?Seek@MemoryIOStream@Assimp@@UEAA?AW4aiReturn@@_KW4aiOrigin@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/code/AssetLib/glTF/glTFAsset.inl"
+                },
+                "region": {
+                  "startLine": 455,
+                  "startColumn": 25,
+                  "endLine": 455,
+                  "endColumn": 66
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "glTF::Accessor::WriteData",
+                  "decoratedName": "?WriteData@Accessor@glTF@@QEAAX_KPEBX0@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6386",
+          "message": {
+            "text": "Buffer overrun while writing to 'mScene->mCameras'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/code/AssetLib/glTF/glTFImporter.cpp"
+                },
+                "region": {
+                  "startLine": 470,
+                  "startColumn": 19,
+                  "endLine": 470,
+                  "endColumn": 61
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Assimp::glTFImporter::ImportCameras",
+                  "decoratedName": "?ImportCameras@glTFImporter@Assimp@@AEAAXAEAVAsset@glTF@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/code/AssetLib/glTF/glTFImporter.cpp"
+                          },
+                          "region": {
+                            "startLine": 461,
+                            "startColumn": 9
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume '!r.cameras.Size()' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/code/AssetLib/glTF/glTFImporter.cpp"
+                          },
+                          "region": {
+                            "startLine": 465,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/code/AssetLib/glTF/glTFImporter.cpp"
+                          },
+                          "region": {
+                            "startLine": 466,
+                            "startColumn": 22
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/code/AssetLib/glTF/glTFImporter.cpp"
+                          },
+                          "region": {
+                            "startLine": 467,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/code/AssetLib/glTF/glTFImporter.cpp"
+                          },
+                          "region": {
+                            "startLine": 467,
+                            "startColumn": 26
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this loop, (assume 'i<r.cameras.Size()')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/code/AssetLib/glTF/glTFImporter.cpp"
+                          },
+                          "region": {
+                            "startLine": 468,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/code/AssetLib/glTF/glTFImporter.cpp"
+                          },
+                          "region": {
+                            "startLine": 470,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/code/AssetLib/glTF/glTFImporter.cpp"
+                          },
+                          "region": {
+                            "startLine": 472,
+                            "startColumn": 22
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume 'cam.type==Perspective' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/code/AssetLib/glTF/glTFImporter.cpp"
+                          },
+                          "region": {
+                            "startLine": 478,
+                            "startColumn": 34
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/code/AssetLib/glTF/glTFImporter.cpp"
+                          },
+                          "region": {
+                            "startLine": 479,
+                            "startColumn": 35
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/code/AssetLib/glTF/glTFImporter.cpp"
+                          },
+                          "region": {
+                            "startLine": 480,
+                            "startColumn": 35
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/code/AssetLib/glTF/glTFImporter.cpp"
+                          },
+                          "region": {
+                            "startLine": 481,
+                            "startColumn": 28
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/code/AssetLib/glTF/glTFImporter.cpp"
+                          },
+                          "region": {
+                            "startLine": 482,
+                            "startColumn": 21
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume '0.000000!=cam.ortographic.ymag' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/code/AssetLib/glTF/glTFImporter.cpp"
+                          },
+                          "region": {
+                            "startLine": 467,
+                            "startColumn": 46
+                          }
+                        },
+                        "message": {
+                          "text": "'i' may equal 1"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/code/AssetLib/glTF/glTFImporter.cpp"
+                          },
+                          "region": {
+                            "startLine": 467,
+                            "startColumn": 26
+                          }
+                        },
+                        "message": {
+                          "text": "Continue this loop, (assume 'i<r.cameras.Size()')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/code/AssetLib/glTF/glTFImporter.cpp"
+                          },
+                          "region": {
+                            "startLine": 468,
+                            "startColumn": 17
+                          }
+                        },
+                        "message": {
+                          "text": "'i' is an In/Out argument to 'glTF::LazyDict<glTF::Camera>::[]' (declared at c:\\dev\\verycoolengine\\verycoolengine\\vendor\\assimp\\code\\assetlib\\gltf\\gltfasset.h:885)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/code/AssetLib/glTF/glTFImporter.cpp"
+                          },
+                          "region": {
+                            "startLine": 470,
+                            "startColumn": 19
+                          }
+                        },
+                        "message": {
+                          "text": "Invalid write to 'mScene->mCameras[1]', (writable range is 0 to 0)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6386",
+          "message": {
+            "text": "Buffer overrun while writing to 'mScene->mLights'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/code/AssetLib/glTF/glTFImporter.cpp"
+                },
+                "region": {
+                  "startLine": 498,
+                  "startColumn": 18,
+                  "endLine": 498,
+                  "endColumn": 56
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Assimp::glTFImporter::ImportLights",
+                  "decoratedName": "?ImportLights@glTFImporter@Assimp@@AEAAXAEAVAsset@glTF@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/code/AssetLib/glTF/glTFImporter.cpp"
+                          },
+                          "region": {
+                            "startLine": 490,
+                            "startColumn": 9
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume '!r.lights.Size()' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/code/AssetLib/glTF/glTFImporter.cpp"
+                          },
+                          "region": {
+                            "startLine": 492,
+                            "startColumn": 24
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/code/AssetLib/glTF/glTFImporter.cpp"
+                          },
+                          "region": {
+                            "startLine": 493,
+                            "startColumn": 21
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/code/AssetLib/glTF/glTFImporter.cpp"
+                          },
+                          "region": {
+                            "startLine": 495,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/code/AssetLib/glTF/glTFImporter.cpp"
+                          },
+                          "region": {
+                            "startLine": 495,
+                            "startColumn": 26
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this loop, (assume 'i<r.lights.Size()')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/code/AssetLib/glTF/glTFImporter.cpp"
+                          },
+                          "region": {
+                            "startLine": 496,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/code/AssetLib/glTF/glTFImporter.cpp"
+                          },
+                          "region": {
+                            "startLine": 498,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/code/AssetLib/glTF/glTFImporter.cpp"
+                          },
+                          "region": {
+                            "startLine": 500,
+                            "startColumn": 18
+                          }
+                        },
+                        "message": {
+                          "text": "Assume switch ( 'l.type' ) resolves to case Type_directional: "
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/code/AssetLib/glTF/glTFImporter.cpp"
+                          },
+                          "region": {
+                            "startLine": 501,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/code/AssetLib/glTF/glTFImporter.cpp"
+                          },
+                          "region": {
+                            "startLine": 502,
+                            "startColumn": 24
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/code/AssetLib/glTF/glTFImporter.cpp"
+                          },
+                          "region": {
+                            "startLine": 518,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/code/AssetLib/glTF/glTFImporter.cpp"
+                          },
+                          "region": {
+                            "startLine": 519,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/code/AssetLib/glTF/glTFImporter.cpp"
+                          },
+                          "region": {
+                            "startLine": 520,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/code/AssetLib/glTF/glTFImporter.cpp"
+                          },
+                          "region": {
+                            "startLine": 522,
+                            "startColumn": 30
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/code/AssetLib/glTF/glTFImporter.cpp"
+                          },
+                          "region": {
+                            "startLine": 523,
+                            "startColumn": 30
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/code/AssetLib/glTF/glTFImporter.cpp"
+                          },
+                          "region": {
+                            "startLine": 525,
+                            "startColumn": 35
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/code/AssetLib/glTF/glTFImporter.cpp"
+                          },
+                          "region": {
+                            "startLine": 526,
+                            "startColumn": 33
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/code/AssetLib/glTF/glTFImporter.cpp"
+                          },
+                          "region": {
+                            "startLine": 527,
+                            "startColumn": 36
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/code/AssetLib/glTF/glTFImporter.cpp"
+                          },
+                          "region": {
+                            "startLine": 495,
+                            "startColumn": 45
+                          }
+                        },
+                        "message": {
+                          "text": "'i' may equal 1"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/code/AssetLib/glTF/glTFImporter.cpp"
+                          },
+                          "region": {
+                            "startLine": 495,
+                            "startColumn": 26
+                          }
+                        },
+                        "message": {
+                          "text": "Continue this loop, (assume 'i<r.lights.Size()')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/code/AssetLib/glTF/glTFImporter.cpp"
+                          },
+                          "region": {
+                            "startLine": 496,
+                            "startColumn": 16
+                          }
+                        },
+                        "message": {
+                          "text": "'i' is an In/Out argument to 'glTF::LazyDict<glTF::Light>::[]' (declared at c:\\dev\\verycoolengine\\verycoolengine\\vendor\\assimp\\code\\assetlib\\gltf\\gltfasset.h:885)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/code/AssetLib/glTF/glTFImporter.cpp"
+                          },
+                          "region": {
+                            "startLine": 498,
+                            "startColumn": 18
+                          }
+                        },
+                        "message": {
+                          "text": "Invalid write to 'mScene->mLights[1]', (writable range is 0 to 0)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6386",
+          "message": {
+            "text": "Buffer overrun while writing to 'ainode->mMeshes'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/code/AssetLib/glTF/glTFImporter.cpp"
+                },
+                "region": {
+                  "startLine": 588,
+                  "startColumn": 17,
+                  "endLine": 588,
+                  "endColumn": 38
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ImportNode",
+                  "decoratedName": "?ImportNode@@YAPEAUaiNode@@PEAUaiScene@@AEAVAsset@glTF@@AEAV?$vector@IV?$allocator@I@std@@@std@@AEAV?$Ref@UNode@glTF@@@glTFCommon@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/code/AssetLib/glTF/glTFImporter.cpp"
+                          },
+                          "region": {
+                            "startLine": 532,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/code/AssetLib/glTF/glTFImporter.cpp"
+                          },
+                          "region": {
+                            "startLine": 534,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/code/AssetLib/glTF/glTFImporter.cpp"
+                          },
+                          "region": {
+                            "startLine": 536,
+                            "startColumn": 9
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume '!node.children.empty()' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/code/AssetLib/glTF/glTFImporter.cpp"
+                          },
+                          "region": {
+                            "startLine": 547,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/code/AssetLib/glTF/glTFImporter.cpp"
+                          },
+                          "region": {
+                            "startLine": 548,
+                            "startColumn": 20
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume 'node.matrix.isPresent' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/code/AssetLib/glTF/glTFImporter.cpp"
+                          },
+                          "region": {
+                            "startLine": 551,
+                            "startColumn": 29
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume 'node.translation.isPresent' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/code/AssetLib/glTF/glTFImporter.cpp"
+                          },
+                          "region": {
+                            "startLine": 559,
+                            "startColumn": 23
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume 'node.scale.isPresent' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/code/AssetLib/glTF/glTFImporter.cpp"
+                          },
+                          "region": {
+                            "startLine": 567,
+                            "startColumn": 26
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume 'node.rotation.isPresent' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/code/AssetLib/glTF/glTFImporter.cpp"
+                          },
+                          "region": {
+                            "startLine": 574,
+                            "startColumn": 9
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this branch, (assume '!node.meshes.empty()')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/code/AssetLib/glTF/glTFImporter.cpp"
+                          },
+                          "region": {
+                            "startLine": 575,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/code/AssetLib/glTF/glTFImporter.cpp"
+                          },
+                          "region": {
+                            "startLine": 576,
+                            "startColumn": 21
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/code/AssetLib/glTF/glTFImporter.cpp"
+                          },
+                          "region": {
+                            "startLine": 576,
+                            "startColumn": 30
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this loop, (assume 'i<node.meshes.size()' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/code/AssetLib/glTF/glTFImporter.cpp"
+                          },
+                          "region": {
+                            "startLine": 581,
+                            "startColumn": 28
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/code/AssetLib/glTF/glTFImporter.cpp"
+                          },
+                          "region": {
+                            "startLine": 582,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/code/AssetLib/glTF/glTFImporter.cpp"
+                          },
+                          "region": {
+                            "startLine": 584,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/code/AssetLib/glTF/glTFImporter.cpp"
+                          },
+                          "region": {
+                            "startLine": 585,
+                            "startColumn": 21
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/code/AssetLib/glTF/glTFImporter.cpp"
+                          },
+                          "region": {
+                            "startLine": 585,
+                            "startColumn": 30
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this loop, (assume 'i<node.meshes.size()')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/code/AssetLib/glTF/glTFImporter.cpp"
+                          },
+                          "region": {
+                            "startLine": 586,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/code/AssetLib/glTF/glTFImporter.cpp"
+                          },
+                          "region": {
+                            "startLine": 587,
+                            "startColumn": 31
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/code/AssetLib/glTF/glTFImporter.cpp"
+                          },
+                          "region": {
+                            "startLine": 587,
+                            "startColumn": 55
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this loop, (assume 'j<meshOffsets[](idx+1)')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/code/AssetLib/glTF/glTFImporter.cpp"
+                          },
+                          "region": {
+                            "startLine": 588,
+                            "startColumn": 36
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/code/AssetLib/glTF/glTFImporter.cpp"
+                          },
+                          "region": {
+                            "startLine": 587,
+                            "startColumn": 82
+                          }
+                        },
+                        "message": {
+                          "text": "'k' may equal 1"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/code/AssetLib/glTF/glTFImporter.cpp"
+                          },
+                          "region": {
+                            "startLine": 587,
+                            "startColumn": 55
+                          }
+                        },
+                        "message": {
+                          "text": "Exit this loop, ('j<meshOffsets[](idx+1)' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/code/AssetLib/glTF/glTFImporter.cpp"
+                          },
+                          "region": {
+                            "startLine": 585,
+                            "startColumn": 52
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/code/AssetLib/glTF/glTFImporter.cpp"
+                          },
+                          "region": {
+                            "startLine": 585,
+                            "startColumn": 30
+                          }
+                        },
+                        "message": {
+                          "text": "Continue this loop, (assume 'i<node.meshes.size()')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/code/AssetLib/glTF/glTFImporter.cpp"
+                          },
+                          "region": {
+                            "startLine": 586,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/code/AssetLib/glTF/glTFImporter.cpp"
+                          },
+                          "region": {
+                            "startLine": 587,
+                            "startColumn": 31
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/code/AssetLib/glTF/glTFImporter.cpp"
+                          },
+                          "region": {
+                            "startLine": 587,
+                            "startColumn": 55
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this loop, (assume 'j<meshOffsets[](idx+1)')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/code/AssetLib/glTF/glTFImporter.cpp"
+                          },
+                          "region": {
+                            "startLine": 588,
+                            "startColumn": 36
+                          }
+                        },
+                        "message": {
+                          "text": "Invalid write to 'ainode->mMeshes', (outside its writable range)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/code/AssetLib/glTF/glTFImporter.cpp"
+                },
+                "region": {
+                  "startLine": 578,
+                  "startColumn": 34,
+                  "endLine": 578,
+                  "endColumn": 40
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ImportNode",
+                  "decoratedName": "?ImportNode@@YAPEAUaiNode@@PEAUaiScene@@AEAVAsset@glTF@@AEAV?$vector@IV?$allocator@I@std@@@std@@AEAV?$Ref@UNode@glTF@@@glTFCommon@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/code/AssetLib/glTF/glTFImporter.cpp"
+                },
+                "region": {
+                  "startLine": 587,
+                  "startColumn": 69,
+                  "endLine": 587,
+                  "endColumn": 75
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ImportNode",
+                  "decoratedName": "?ImportNode@@YAPEAUaiNode@@PEAUaiScene@@AEAVAsset@glTF@@AEAV?$vector@IV?$allocator@I@std@@@std@@AEAV?$Ref@UNode@glTF@@@glTFCommon@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'glTF::Accessor::count' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/code/AssetLib/glTF/glTFAsset.h"
+                },
+                "region": {
+                  "startLine": 385,
+                  "startColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "glTF::Accessor::{ctor}",
+                  "decoratedName": "??0Accessor@glTF@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "glTF::Accessor::count"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'glTF::Accessor::byteStride' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/code/AssetLib/glTF/glTFAsset.h"
+                },
+                "region": {
+                  "startLine": 385,
+                  "startColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "glTF::Accessor::{ctor}",
+                  "decoratedName": "??0Accessor@glTF@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "glTF::Accessor::byteStride"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'glTF::Accessor::type' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/code/AssetLib/glTF/glTFAsset.h"
+                },
+                "region": {
+                  "startLine": 385,
+                  "startColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "glTF::Accessor::{ctor}",
+                  "decoratedName": "??0Accessor@glTF@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "glTF::Accessor::type"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'glTF::Accessor::componentType' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/code/AssetLib/glTF/glTFAsset.h"
+                },
+                "region": {
+                  "startLine": 385,
+                  "startColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "glTF::Accessor::{ctor}",
+                  "decoratedName": "??0Accessor@glTF@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "glTF::Accessor::componentType"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'glTF::Accessor::byteOffset' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/code/AssetLib/glTF/glTFAsset.h"
+                },
+                "region": {
+                  "startLine": 385,
+                  "startColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "glTF::Accessor::{ctor}",
+                  "decoratedName": "??0Accessor@glTF@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "glTF::Accessor::byteOffset"
+          }
+        },
+        {
+          "ruleId": "C6385",
+          "message": {
+            "text": "Reading invalid data from 'new_keys'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/include/assimp/metadata.h"
+                },
+                "region": {
+                  "startLine": 340,
+                  "startColumn": 13,
+                  "endLine": 340,
+                  "endColumn": 34
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "aiMetadata::Add",
+                  "decoratedName": "??$Add@UaiString@@@aiMetadata@@QEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBUaiString@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/include/assimp/metadata.h"
+                          },
+                          "region": {
+                            "startLine": 336,
+                            "startColumn": 19
+                          }
+                        },
+                        "message": {
+                          "text": "'new_keys' is an array of 1 elements (1028 bytes)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/include/assimp/metadata.h"
+                          },
+                          "region": {
+                            "startLine": 337,
+                            "startColumn": 26
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/include/assimp/metadata.h"
+                          },
+                          "region": {
+                            "startLine": 339,
+                            "startColumn": 27
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/include/assimp/metadata.h"
+                          },
+                          "region": {
+                            "startLine": 339,
+                            "startColumn": 36
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this loop, (assume 'i<mNumProperties')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/include/assimp/metadata.h"
+                          },
+                          "region": {
+                            "startLine": 340,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/include/assimp/metadata.h"
+                          },
+                          "region": {
+                            "startLine": 341,
+                            "startColumn": 27
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/include/assimp/metadata.h"
+                          },
+                          "region": {
+                            "startLine": 339,
+                            "startColumn": 54
+                          }
+                        },
+                        "message": {
+                          "text": "'i' may equal 1"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/include/assimp/metadata.h"
+                          },
+                          "region": {
+                            "startLine": 339,
+                            "startColumn": 36
+                          }
+                        },
+                        "message": {
+                          "text": "Continue this loop, (assume 'i<mNumProperties')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/include/assimp/metadata.h"
+                          },
+                          "region": {
+                            "startLine": 340,
+                            "startColumn": 25
+                          }
+                        },
+                        "message": {
+                          "text": "'i' is an Output from 'aiString::=' (declared at c:\\dev\\verycoolengine\\verycoolengine\\vendor\\assimp\\include\\assimp\\types.h:318)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/include/assimp/metadata.h"
+                          },
+                          "region": {
+                            "startLine": 340,
+                            "startColumn": 25
+                          }
+                        },
+                        "message": {
+                          "text": "Invalid read from 'new_keys[1]', (readable range is 0 to 0)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6386",
+          "message": {
+            "text": "Buffer overrun while writing to 'new_values'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/include/assimp/metadata.h"
+                },
+                "region": {
+                  "startLine": 341,
+                  "startColumn": 13,
+                  "endLine": 341,
+                  "endColumn": 38
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "aiMetadata::Add",
+                  "decoratedName": "??$Add@UaiString@@@aiMetadata@@QEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBUaiString@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/include/assimp/metadata.h"
+                          },
+                          "region": {
+                            "startLine": 336,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/include/assimp/metadata.h"
+                          },
+                          "region": {
+                            "startLine": 337,
+                            "startColumn": 26
+                          }
+                        },
+                        "message": {
+                          "text": "'new_values' is an array of 1 elements (16 bytes)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/include/assimp/metadata.h"
+                          },
+                          "region": {
+                            "startLine": 339,
+                            "startColumn": 27
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/include/assimp/metadata.h"
+                          },
+                          "region": {
+                            "startLine": 339,
+                            "startColumn": 36
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this loop, (assume 'i<mNumProperties')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/include/assimp/metadata.h"
+                          },
+                          "region": {
+                            "startLine": 340,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/include/assimp/metadata.h"
+                          },
+                          "region": {
+                            "startLine": 341,
+                            "startColumn": 27
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/include/assimp/metadata.h"
+                          },
+                          "region": {
+                            "startLine": 339,
+                            "startColumn": 54
+                          }
+                        },
+                        "message": {
+                          "text": "'i' may equal 1"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/include/assimp/metadata.h"
+                          },
+                          "region": {
+                            "startLine": 339,
+                            "startColumn": 36
+                          }
+                        },
+                        "message": {
+                          "text": "Continue this loop, (assume 'i<mNumProperties')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/include/assimp/metadata.h"
+                          },
+                          "region": {
+                            "startLine": 340,
+                            "startColumn": 25
+                          }
+                        },
+                        "message": {
+                          "text": "'i' is an Output from 'aiString::=' (declared at c:\\dev\\verycoolengine\\verycoolengine\\vendor\\assimp\\include\\assimp\\types.h:318)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/include/assimp/metadata.h"
+                          },
+                          "region": {
+                            "startLine": 341,
+                            "startColumn": 27
+                          }
+                        },
+                        "message": {
+                          "text": "Invalid write to 'new_values[1]', (writable range is 0 to 0)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/include/assimp/metadata.h"
+                },
+                "region": {
+                  "startLine": 336,
+                  "startColumn": 43,
+                  "endLine": 336,
+                  "endColumn": 60
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "aiMetadata::Add",
+                  "decoratedName": "??$Add@UaiString@@@aiMetadata@@QEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBUaiString@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/include/assimp/metadata.h"
+                },
+                "region": {
+                  "startLine": 337,
+                  "startColumn": 59,
+                  "endLine": 337,
+                  "endColumn": 76
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "aiMetadata::Add",
+                  "decoratedName": "??$Add@UaiString@@@aiMetadata@@QEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBUaiString@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'glTF::BufferView::byteOffset' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/code/AssetLib/glTF/glTFAsset.h"
+                },
+                "region": {
+                  "startLine": 507,
+                  "startColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "glTF::BufferView::{ctor}",
+                  "decoratedName": "??0BufferView@glTF@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "glTF::BufferView::byteOffset"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'glTF::BufferView::byteLength' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/code/AssetLib/glTF/glTFAsset.h"
+                },
+                "region": {
+                  "startLine": 507,
+                  "startColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "glTF::BufferView::{ctor}",
+                  "decoratedName": "??0BufferView@glTF@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "glTF::BufferView::byteLength"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'glTF::BufferView::target' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/code/AssetLib/glTF/glTFAsset.h"
+                },
+                "region": {
+                  "startLine": 507,
+                  "startColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "glTF::BufferView::{ctor}",
+                  "decoratedName": "??0BufferView@glTF@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "glTF::BufferView::target"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'glTF::Camera::<unnamed-tag>::ortographic' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/code/AssetLib/glTF/glTFAsset.h"
+                },
+                "region": {
+                  "startLine": 534,
+                  "startColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "glTF::Camera::{ctor}",
+                  "decoratedName": "??0Camera@glTF@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "glTF::Camera::<unnamed-tag>::ortographic"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'glTF::Camera::<unnamed-tag>::perspective' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/code/AssetLib/glTF/glTFAsset.h"
+                },
+                "region": {
+                  "startLine": 534,
+                  "startColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "glTF::Camera::{ctor}",
+                  "decoratedName": "??0Camera@glTF@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "glTF::Camera::<unnamed-tag>::perspective"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'glTF::Camera::type' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/code/AssetLib/glTF/glTFAsset.h"
+                },
+                "region": {
+                  "startLine": 534,
+                  "startColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "glTF::Camera::{ctor}",
+                  "decoratedName": "??0Camera@glTF@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "glTF::Camera::type"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'glTF::Sampler::magFilter' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/code/AssetLib/glTF/glTFAsset.h"
+                },
+                "region": {
+                  "startLine": 721,
+                  "startColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "glTF::Sampler::{ctor}",
+                  "decoratedName": "??0Sampler@glTF@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "glTF::Sampler::magFilter"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'glTF::Sampler::minFilter' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/code/AssetLib/glTF/glTFAsset.h"
+                },
+                "region": {
+                  "startLine": 721,
+                  "startColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "glTF::Sampler::{ctor}",
+                  "decoratedName": "??0Sampler@glTF@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "glTF::Sampler::minFilter"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'glTF::Sampler::wrapS' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/code/AssetLib/glTF/glTFAsset.h"
+                },
+                "region": {
+                  "startLine": 721,
+                  "startColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "glTF::Sampler::{ctor}",
+                  "decoratedName": "??0Sampler@glTF@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "glTF::Sampler::wrapS"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'glTF::Sampler::wrapT' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/code/AssetLib/glTF/glTFAsset.h"
+                },
+                "region": {
+                  "startLine": 721,
+                  "startColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "glTF::Sampler::{ctor}",
+                  "decoratedName": "??0Sampler@glTF@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "glTF::Sampler::wrapT"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'glTF::Light::type' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/code/AssetLib/glTF/glTFAsset.h"
+                },
+                "region": {
+                  "startLine": 790,
+                  "startColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "glTF::Light::{ctor}",
+                  "decoratedName": "??0Light@glTF@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "glTF::Light::type"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'glTF::Light::color' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/code/AssetLib/glTF/glTFAsset.h"
+                },
+                "region": {
+                  "startLine": 790,
+                  "startColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "glTF::Light::{ctor}",
+                  "decoratedName": "??0Light@glTF@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "glTF::Light::color"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'glTF::Light::distance' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/code/AssetLib/glTF/glTFAsset.h"
+                },
+                "region": {
+                  "startLine": 790,
+                  "startColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "glTF::Light::{ctor}",
+                  "decoratedName": "??0Light@glTF@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "glTF::Light::distance"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'glTF::Light::constantAttenuation' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/code/AssetLib/glTF/glTFAsset.h"
+                },
+                "region": {
+                  "startLine": 790,
+                  "startColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "glTF::Light::{ctor}",
+                  "decoratedName": "??0Light@glTF@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "glTF::Light::constantAttenuation"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'glTF::Light::linearAttenuation' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/code/AssetLib/glTF/glTFAsset.h"
+                },
+                "region": {
+                  "startLine": 790,
+                  "startColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "glTF::Light::{ctor}",
+                  "decoratedName": "??0Light@glTF@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "glTF::Light::linearAttenuation"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'glTF::Light::quadraticAttenuation' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/code/AssetLib/glTF/glTFAsset.h"
+                },
+                "region": {
+                  "startLine": 790,
+                  "startColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "glTF::Light::{ctor}",
+                  "decoratedName": "??0Light@glTF@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "glTF::Light::quadraticAttenuation"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'glTF::Light::falloffAngle' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/code/AssetLib/glTF/glTFAsset.h"
+                },
+                "region": {
+                  "startLine": 790,
+                  "startColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "glTF::Light::{ctor}",
+                  "decoratedName": "??0Light@glTF@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "glTF::Light::falloffAngle"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'glTF::Light::falloffExponent' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/code/AssetLib/glTF/glTFAsset.h"
+                },
+                "region": {
+                  "startLine": 790,
+                  "startColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "glTF::Light::{ctor}",
+                  "decoratedName": "??0Light@glTF@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "glTF::Light::falloffExponent"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'glTFCommon::Nullable<float [4]>::value' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/code/AssetLib/glTF/glTFCommon.h"
+                },
+                "region": {
+                  "startLine": 246,
+                  "startColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "glTFCommon::Nullable<float [4]>::{ctor}",
+                  "decoratedName": "??0?$Nullable@$$BY03M@glTFCommon@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "glTFCommon::Nullable<float [4]>::value"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'glTFCommon::Nullable<float [3]>::value' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/code/AssetLib/glTF/glTFCommon.h"
+                },
+                "region": {
+                  "startLine": 246,
+                  "startColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "glTFCommon::Nullable<float [3]>::{ctor}",
+                  "decoratedName": "??0?$Nullable@$$BY02M@glTFCommon@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "glTFCommon::Nullable<float [3]>::value"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'glTFCommon::Nullable<float [16]>::value' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/code/AssetLib/glTF/glTFCommon.h"
+                },
+                "region": {
+                  "startLine": 246,
+                  "startColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "glTFCommon::Nullable<float [16]>::{ctor}",
+                  "decoratedName": "??0?$Nullable@$$BY0BA@M@glTFCommon@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "glTFCommon::Nullable<float [16]>::value"
+          }
+        },
+        {
+          "ruleId": "C26439",
+          "message": {
+            "text": "This kind of function should not throw. Declare it 'noexcept' (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/include/assimp/TinyFormatter.h"
+                },
+                "region": {
+                  "startLine": 98,
+                  "startColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Assimp::Formatter::basic_formatter<char,std::char_traits<char>,std::allocator<char> >::{ctor}",
+                  "decoratedName": "??0?$basic_formatter@DU?$char_traits@D@std@@V?$allocator@D@2@@Formatter@Assimp@@QEAA@$$QEAV012@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'glTF::Mesh::Primitive::mode' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/code/AssetLib/glTF/glTFAsset.h"
+                },
+                "region": {
+                  "startLine": 610,
+                  "startColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "glTF::Mesh::Primitive::{ctor}",
+                  "decoratedName": "??0Primitive@Mesh@glTF@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "glTF::Mesh::Primitive::mode"
+          }
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/rapidjson/include/rapidjson/reader.h"
+                },
+                "region": {
+                  "startLine": 1559,
+                  "startColumn": 60,
+                  "endLine": 1559,
+                  "endColumn": 75
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "rapidjson::GenericReader<rapidjson::UTF8<char>,rapidjson::UTF8<char>,rapidjson::CrtAllocator>::ParseNumber",
+                  "decoratedName": "??$ParseNumber@$00U?$GenericInsituStringStream@U?$UTF8@D@rapidjson@@@rapidjson@@V?$GenericDocument@U?$UTF8@D@rapidjson@@V?$MemoryPoolAllocator@VCrtAllocator@rapidjson@@@2@VCrtAllocator@2@@2@@?$GenericReader@U?$UTF8@D@rapidjson@@U12@VCrtAllocator@2@@rapidjson@@AEAAXAEAU?$GenericInsituStringStream@U?$UTF8@D@rapidjson@@@1@AEAV?$GenericDocument@U?$UTF8@D@rapidjson@@V?$MemoryPoolAllocator@VCrtAllocator@rapidjson@@@2@VCrtAllocator@2@@1@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/rapidjson/include/rapidjson/reader.h"
+                },
+                "region": {
+                  "startLine": 1570,
+                  "startColumn": 60,
+                  "endLine": 1570,
+                  "endColumn": 75
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "rapidjson::GenericReader<rapidjson::UTF8<char>,rapidjson::UTF8<char>,rapidjson::CrtAllocator>::ParseNumber",
+                  "decoratedName": "??$ParseNumber@$00U?$GenericInsituStringStream@U?$UTF8@D@rapidjson@@@rapidjson@@V?$GenericDocument@U?$UTF8@D@rapidjson@@V?$MemoryPoolAllocator@VCrtAllocator@rapidjson@@@2@VCrtAllocator@2@@2@@?$GenericReader@U?$UTF8@D@rapidjson@@U12@VCrtAllocator@2@@rapidjson@@AEAAXAEAU?$GenericInsituStringStream@U?$UTF8@D@rapidjson@@@1@AEAV?$GenericDocument@U?$UTF8@D@rapidjson@@V?$MemoryPoolAllocator@VCrtAllocator@rapidjson@@@2@VCrtAllocator@2@@1@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/rapidjson/include/rapidjson/reader.h"
+                },
+                "region": {
+                  "startLine": 1578,
+                  "startColumn": 31,
+                  "endLine": 1578,
+                  "endColumn": 46
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "rapidjson::GenericReader<rapidjson::UTF8<char>,rapidjson::UTF8<char>,rapidjson::CrtAllocator>::ParseNumber",
+                  "decoratedName": "??$ParseNumber@$00U?$GenericInsituStringStream@U?$UTF8@D@rapidjson@@@rapidjson@@V?$GenericDocument@U?$UTF8@D@rapidjson@@V?$MemoryPoolAllocator@VCrtAllocator@rapidjson@@@2@VCrtAllocator@2@@2@@?$GenericReader@U?$UTF8@D@rapidjson@@U12@VCrtAllocator@2@@rapidjson@@AEAAXAEAU?$GenericInsituStringStream@U?$UTF8@D@rapidjson@@@1@AEAV?$GenericDocument@U?$UTF8@D@rapidjson@@V?$MemoryPoolAllocator@VCrtAllocator@rapidjson@@@2@VCrtAllocator@2@@1@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/rapidjson/include/rapidjson/reader.h"
+                },
+                "region": {
+                  "startLine": 1601,
+                  "startColumn": 64,
+                  "endLine": 1601,
+                  "endColumn": 79
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "rapidjson::GenericReader<rapidjson::UTF8<char>,rapidjson::UTF8<char>,rapidjson::CrtAllocator>::ParseNumber",
+                  "decoratedName": "??$ParseNumber@$00U?$GenericInsituStringStream@U?$UTF8@D@rapidjson@@@rapidjson@@V?$GenericDocument@U?$UTF8@D@rapidjson@@V?$MemoryPoolAllocator@VCrtAllocator@rapidjson@@@2@VCrtAllocator@2@@2@@?$GenericReader@U?$UTF8@D@rapidjson@@U12@VCrtAllocator@2@@rapidjson@@AEAAXAEAU?$GenericInsituStringStream@U?$UTF8@D@rapidjson@@@1@AEAV?$GenericDocument@U?$UTF8@D@rapidjson@@V?$MemoryPoolAllocator@VCrtAllocator@rapidjson@@@2@VCrtAllocator@2@@1@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/rapidjson/include/rapidjson/reader.h"
+                },
+                "region": {
+                  "startLine": 1618,
+                  "startColumn": 37,
+                  "endLine": 1618,
+                  "endColumn": 52
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "rapidjson::GenericReader<rapidjson::UTF8<char>,rapidjson::UTF8<char>,rapidjson::CrtAllocator>::ParseNumber",
+                  "decoratedName": "??$ParseNumber@$00U?$GenericInsituStringStream@U?$UTF8@D@rapidjson@@@rapidjson@@V?$GenericDocument@U?$UTF8@D@rapidjson@@V?$MemoryPoolAllocator@VCrtAllocator@rapidjson@@@2@VCrtAllocator@2@@2@@?$GenericReader@U?$UTF8@D@rapidjson@@U12@VCrtAllocator@2@@rapidjson@@AEAAXAEAU?$GenericInsituStringStream@U?$UTF8@D@rapidjson@@@1@AEAV?$GenericDocument@U?$UTF8@D@rapidjson@@V?$MemoryPoolAllocator@VCrtAllocator@rapidjson@@@2@VCrtAllocator@2@@1@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C33010",
+          "message": {
+            "text": "Unchecked lower bound for enum type used as index.."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/rapidjson/include/rapidjson/document.h"
+                },
+                "region": {
+                  "startLine": 717,
+                  "startColumn": 9,
+                  "endLine": 717,
+                  "endColumn": 42
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "rapidjson::GenericValue<rapidjson::UTF8<char>,rapidjson::MemoryPoolAllocator<rapidjson::CrtAllocator> >::{ctor}",
+                  "decoratedName": "??0?$GenericValue@U?$UTF8@D@rapidjson@@V?$MemoryPoolAllocator@VCrtAllocator@rapidjson@@@2@@rapidjson@@QEAA@W4Type@1@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/rapidjson/include/rapidjson/document.h"
+                          },
+                          "region": {
+                            "startLine": 711,
+                            "startColumn": 5
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/rapidjson/include/rapidjson/document.h"
+                          },
+                          "region": {
+                            "startLine": 711,
+                            "startColumn": 64
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/rapidjson/include/rapidjson/document.h"
+                          },
+                          "region": {
+                            "startLine": 711,
+                            "startColumn": 64
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/rapidjson/include/rapidjson/document.h"
+                          },
+                          "region": {
+                            "startLine": 712,
+                            "startColumn": 31
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/rapidjson/include/rapidjson/document.h"
+                          },
+                          "region": {
+                            "startLine": 712,
+                            "startColumn": 48
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/rapidjson/include/rapidjson/document.h"
+                          },
+                          "region": {
+                            "startLine": 712,
+                            "startColumn": 31
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/rapidjson/include/rapidjson/document.h"
+                          },
+                          "region": {
+                            "startLine": 716,
+                            "startColumn": 9
+                          }
+                        },
+                        "message": {
+                          "text": "Branching based on condition '0 <= type'. 'false' branch is taken\nEnum value 'type' is checked for upper bound."
+                        }
+                      },
+                      "kinds": [
+                        "Combination"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/rapidjson/include/rapidjson/document.h"
+                          },
+                          "region": {
+                            "startLine": 716,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/rapidjson/include/rapidjson/document.h"
+                          },
+                          "region": {
+                            "startLine": 716,
+                            "startColumn": 9
+                          }
+                        },
+                        "message": {
+                          "text": "Branching based on condition '0'. 'false' branch is taken"
+                        }
+                      },
+                      "kinds": [
+                        "Branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/rapidjson/include/rapidjson/document.h"
+                          },
+                          "region": {
+                            "startLine": 716,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/rapidjson/include/rapidjson/document.h"
+                          },
+                          "region": {
+                            "startLine": 716,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/rapidjson/include/rapidjson/document.h"
+                          },
+                          "region": {
+                            "startLine": 717,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/rapidjson/include/rapidjson/document.h"
+                },
+                "region": {
+                  "startLine": 2158,
+                  "startColumn": 55,
+                  "endLine": 2158,
+                  "endColumn": 66
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "rapidjson::GenericValue<rapidjson::UTF8<char>,rapidjson::MemoryPoolAllocator<rapidjson::CrtAllocator> >::SetStringRaw",
+                  "decoratedName": "?SetStringRaw@?$GenericValue@U?$UTF8@D@rapidjson@@V?$MemoryPoolAllocator@VCrtAllocator@rapidjson@@@2@@rapidjson@@AEAAXU?$GenericStringRef@D@2@AEAV?$MemoryPoolAllocator@VCrtAllocator@rapidjson@@@2@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.37.32825.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/include/assimp/types.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "e30b21307ff777c0783111d5725238a44232a4e3939261b7a1a12fba615797f6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/rapidjson/include/rapidjson/internal/ieee754.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "00757a3dc2aad5b90d915f9c49b378026dc612d49a7f057106d72b1ebd1a0105"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/rapidjson/include/rapidjson/internal/biginteger.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "7771c3f2c82c4736d32b487558d19eaacf678e030945c5b5c994ae9ffa952755"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/rapidjson/include/rapidjson/internal/diyfp.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "2efb18fcfaf4882a23720b0e08fdbe3e94be3b282b6c5c017d18bfd205e80880"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/rapidjson/include/rapidjson/internal/strtod.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "ad524108ca9df43b73a4009c2a47255436403711b3e9c42b3b1ee0b32675a814"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/code/AssetLib/glTF/glTFCommon.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "e142082fdde4dcf80abc9a843747f6f8d33e34ded38206a5d91d65d0a97200a7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/code/AssetLib/glTF/glTFAsset.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "1f0d7d499508a0e17df199215fa6a4b06d98c1c491ed030f6f1c7d2154539d59"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/include/assimp/MemoryIOWrapper.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "176aa6af1bd61a94e2ccf5f03a0d5137230cbd8d5eb5e45716812d89a6899a11"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/code/AssetLib/glTF/glTFAsset.inl"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "a53ed79b352313d5fc7e1b6f4945d1fd22ec1d60f77fc93a43258fe5b15ecb28"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/code/AssetLib/glTF/glTFImporter.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "1dd172be471b9e7f32f92c1c90eade8d0f03707db7b2178ad974f539e839b17d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/include/assimp/metadata.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "878176406caa60df9b31f5449a55d8b117c964e046d4e3dc597276c42b191019"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/include/assimp/TinyFormatter.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "71fdb70a9b79fd292d5ff1aaf94fc0d8c9a2a9ed3889076fc577c363a7aeb04f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/rapidjson/include/rapidjson/reader.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "9902058538bcca216f57b74bb404fa666b1b8d9224acd5b173ab3189c68db6f0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/dev/VeryCoolEngine/VeryCoolEngine/vendor/assimp/contrib/rapidjson/include/rapidjson/document.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "294226583c2807cb30342630bd894e1c5edc007c098d3fabda16f4908b1a85a2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/code/assetlib/gltf/gltfimporter.h"
+          },
+          "hashes": {
+            "sha-256": "c79988d16483a7f30407255f1a9506718b53de9c03ebb5e5aeca167a2bb6b471"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/include/assimp/baseimporter.h"
+          },
+          "hashes": {
+            "sha-256": "6cc97d732757eede996c5161a0bd1fac9c08298f86acb56d44b146c67b7ca44f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/include/assimp/exceptional.h"
+          },
+          "hashes": {
+            "sha-256": "0eb156e781a34d57474ad8802d9f54892efe76e55e520749ffa5171d78d736b5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/include/assimp/defaultiostream.h"
+          },
+          "hashes": {
+            "sha-256": "2ea0a32349de4418f2733bf837fc758b1efb28206176a071d6ee0b5bd7149d43"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/include/assimp/iostream.hpp"
+          },
+          "hashes": {
+            "sha-256": "bb369e5b6c5d8669d7dc34371e5b5ae9eb373ecdefe08ba83ace7c011a72d97c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/include/assimp/defs.h"
+          },
+          "hashes": {
+            "sha-256": "e6a3197c83b51219226e7cffc72c04f53f7c1b6756995d27688d12ff6a40cab3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/include/assimp/config.h"
+          },
+          "hashes": {
+            "sha-256": "5c478cd5b5214ee94f137f90303ab98fb8e1aa20d3edb9fe1912af4ea9917b76"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/include/assimp/vector2.h"
+          },
+          "hashes": {
+            "sha-256": "04cba85b95e1309e20e94f55a55f50d9793351ece69c676f6c5ea635c77fd13d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/include/assimp/vector3.h"
+          },
+          "hashes": {
+            "sha-256": "a8f64cda37485d81ee3cb0b38c5e194c75a5bb5fd44ccc9bd95656d0d403e566"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/include/assimp/color4.h"
+          },
+          "hashes": {
+            "sha-256": "f87a273f074d94788c1642787b6f690050aff1b63f6a3c656742299cc346b03e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/include/assimp/matrix3x3.h"
+          },
+          "hashes": {
+            "sha-256": "633f105133331cd5e9007a23287d8cf47d6826d8b8702eef38707124523c3255"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/include/assimp/matrix4x4.h"
+          },
+          "hashes": {
+            "sha-256": "c5087434e26a2d43df04071226eee20e5ba0a5b7befbdb0b8820b603d8526668"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/include/assimp/quaternion.h"
+          },
+          "hashes": {
+            "sha-256": "39fc3ec394c9d36f825d0daf0623ba2d328d4222f84ddbece29ad86a6af14837"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/include/assimp/vector2.inl"
+          },
+          "hashes": {
+            "sha-256": "b91050c3846eb12dda636efa845f1c03f1de3accb66e80da3a24772c4069326c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/include/assimp/vector3.inl"
+          },
+          "hashes": {
+            "sha-256": "17a372068ac0cdef03ee8da5f488b40b1ba31f311d18afe52d38c06b2ed22a03"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/include/assimp/color4.inl"
+          },
+          "hashes": {
+            "sha-256": "45b1dc2bf83a2690582e089363509370da03cc0f3b02e7aafa9ee7fabb74804c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/include/assimp/matrix3x3.inl"
+          },
+          "hashes": {
+            "sha-256": "94823dfe931de9ed7026a20f9b0a8f6b1bbea73e20a5704a158d67d91eb4b70a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/include/assimp/matrix4x4.inl"
+          },
+          "hashes": {
+            "sha-256": "dc24150d60474c5d3c96ac088be4d60a3ca2d56484c554113b1383c8f5736d79"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/include/assimp/mathfunctions.h"
+          },
+          "hashes": {
+            "sha-256": "3e5540d720d1d67e988fd5595f15d70fe84f08abfdf010a26f3539be465d2f39"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/include/assimp/quaternion.inl"
+          },
+          "hashes": {
+            "sha-256": "22ab7525f7ed92f39a7038591fd21b65818a2300aaae685dd384f83cc59fdcba"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/include/assimp/importerdesc.h"
+          },
+          "hashes": {
+            "sha-256": "690b376a117a1b6b412f3b73425c3c736e61ac0306f33034017de97a17dc3665"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/include/assimp/progresshandler.hpp"
+          },
+          "hashes": {
+            "sha-256": "7f120299fdfdcee6a159772677355ec4d41b24f17c8bfb9f8ec3da09fc0e3b05"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/include/assimp/defaultiosystem.h"
+          },
+          "hashes": {
+            "sha-256": "f2e229f0b95469400f7e0a6a4bc1f99bad95ea2ef45ee9ffd5d1ec82a7e8cc83"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/include/assimp/iosystem.hpp"
+          },
+          "hashes": {
+            "sha-256": "803b6717da3a9141205f4edf37f60620c28847184fdcabac3da07b8b70f95209"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/contrib/rapidjson/include/rapidjson/allocators.h"
+          },
+          "hashes": {
+            "sha-256": "8d231afd9f04a1ac8d4c90e2498a168eb36d75b363280eecde1253b40391de5d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/contrib/rapidjson/include/rapidjson/rapidjson.h"
+          },
+          "hashes": {
+            "sha-256": "c54fa417988693763bc17772c6b049328885006abfa055fb3cb2594f2ff85bfa"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/contrib/rapidjson/include/rapidjson/stream.h"
+          },
+          "hashes": {
+            "sha-256": "a3708a941a130a5679d2302368169852e5c4ca5f54758ea0e94caf61615c8ae0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/contrib/rapidjson/include/rapidjson/encodings.h"
+          },
+          "hashes": {
+            "sha-256": "1d4c62bd4ecc0b5a8b4b53faf48a8d09f09f086e41a90fc2b135517c3d148379"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/contrib/rapidjson/include/rapidjson/encodedstream.h"
+          },
+          "hashes": {
+            "sha-256": "394710616961270b0e4033c03a22b2e5b411958dc07eb4495ba36131648e3558"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/contrib/rapidjson/include/rapidjson/memorystream.h"
+          },
+          "hashes": {
+            "sha-256": "a7bf789978c6d7dda7bb93c0c9555b7d53b3177cbf34c3998c7e18068a3723f5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/contrib/rapidjson/include/rapidjson/internal/clzll.h"
+          },
+          "hashes": {
+            "sha-256": "4ca3e63eaae4c67b049e8a6cbb532182e1d9c9023b7d992c556fcab0c2f4c045"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/contrib/rapidjson/include/rapidjson/internal/meta.h"
+          },
+          "hashes": {
+            "sha-256": "5fcbfd72da1732926e4d0be2a1d79dce892f98d7b66879f818c57583a82505d3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/contrib/rapidjson/include/rapidjson/internal/stack.h"
+          },
+          "hashes": {
+            "sha-256": "1bc01f4623d7b4ed6e890220fa9753375c0f0fb87c8a84f41cd7eecf38a38cd2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/contrib/rapidjson/include/rapidjson/internal/swap.h"
+          },
+          "hashes": {
+            "sha-256": "72acfabebd33f44869e7724603e57744da33337998b32443b66eaba58d2bbbfd"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/contrib/rapidjson/include/rapidjson/internal/pow10.h"
+          },
+          "hashes": {
+            "sha-256": "74cd5ef251a854565a36abe49521be4d8ed17a76e3d27231fd119fb9374a9364"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/contrib/rapidjson/include/rapidjson/error/error.h"
+          },
+          "hashes": {
+            "sha-256": "64fdd0bad7480cd2a257fddf0aaa16b9a8d4a401189ebe0e44cee2ee6be8687c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/contrib/rapidjson/include/rapidjson/internal/strfunc.h"
+          },
+          "hashes": {
+            "sha-256": "9bcc71e2e8f7096325218cebd9aa5338d2c8539bddfc6324eec6d8037c466dbe"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/contrib/rapidjson/include/rapidjson/error/en.h"
+          },
+          "hashes": {
+            "sha-256": "dd2eeb00fe54ba5d140b581dd4467773c3ea72dbf6f2ef87135b187d6d11d6f7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/include/assimp/byteswapper.h"
+          },
+          "hashes": {
+            "sha-256": "9ca4a39f41eae678f778b8e4e3ed668a4f3d292bb4ed61d428a0f8938b0e4e68"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/include/assimp/ai_assert.h"
+          },
+          "hashes": {
+            "sha-256": "d1fd2e3cb5d692dcfcc6a403a69f71225289bea5631fc234d3c3d1c20e9dcbbb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/include/assimp/compiler/pushpack1.h"
+          },
+          "hashes": {
+            "sha-256": "d8df458c394c3afa149403914e03c86dcb6e1dca1af4d366b52541f61d0dd116"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/include/assimp/compiler/poppack1.h"
+          },
+          "hashes": {
+            "sha-256": "0dccb098bbdd32dfcd67a0029d9f48133a38586b91c314b9045366028721537b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/include/assimp/stringutils.h"
+          },
+          "hashes": {
+            "sha-256": "d9837833693a640671f8b26f84653bbf8e06580f89df6804dad6d77f2d52874b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/include/assimp/defaultlogger.hpp"
+          },
+          "hashes": {
+            "sha-256": "84d0657a0eea5a74349cee94ce91120be7ff0c86090dffc2f0ba0325816ac1a6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/include/assimp/logstream.hpp"
+          },
+          "hashes": {
+            "sha-256": "7c6094eddbbf681556906a82f4c8d16c5861693f6d2e7bf76adcc348949f13c4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/include/assimp/logger.hpp"
+          },
+          "hashes": {
+            "sha-256": "0f60393467824de079c05e8b8e6bfc0e577d4630c38a582df30ce02e10e5e29e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/include/assimp/nulllogger.hpp"
+          },
+          "hashes": {
+            "sha-256": "629409dd5b9e9ebe82be77b0422b24e7fa9b02737459dba2b039287d1678e82b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/include/assimp/base64.hpp"
+          },
+          "hashes": {
+            "sha-256": "3e5b132d5d88be663b7cc09b01bf0b2a88b490f5b4b1131091dd5efb936e3973"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/code/postprocessing/makeverboseformat.h"
+          },
+          "hashes": {
+            "sha-256": "8769a2686d7b5e8a417e86bb69551fde1d204be7ce12915fd85f2f4e11cecd92"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/code/common/baseprocess.h"
+          },
+          "hashes": {
+            "sha-256": "e8de2b0ce9739ff359427621d1152fac56cc70a99ff4d9e7c1349c5df8f74cf5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/include/assimp/genericproperty.h"
+          },
+          "hashes": {
+            "sha-256": "b4ebbb32315b8d06df47b36b9ea49725f5bf0744b194e236d966187481dec771"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/include/assimp/hash.h"
+          },
+          "hashes": {
+            "sha-256": "d906e1eaea585a5fa0a424d21c335d5d46d8a900599fcc9e34b705f618dcc55d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/include/assimp/importer.hpp"
+          },
+          "hashes": {
+            "sha-256": "f702738aaeed2aeb1df21688fc92c6e6cadb7ca28d9d4a02e724897aeff7120a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/include/assimp/stringcomparison.h"
+          },
+          "hashes": {
+            "sha-256": "7d47aa0dad00877eb0f89b5865c54c47b7b60d6b3449e40a65ce895788af9610"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/include/assimp/commonmetadata.h"
+          },
+          "hashes": {
+            "sha-256": "71c7202ff26d6d97a748967f4ef249f1ef37880c27d579d1bc5eda412cc459de"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/include/assimp/scene.h"
+          },
+          "hashes": {
+            "sha-256": "4511f67ae7a7dcb5b3423b5b34dbab6ff93b22019f32ded191b7d9bc9eaffb30"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/include/assimp/texture.h"
+          },
+          "hashes": {
+            "sha-256": "a720f1b24ae4ebb297eeb658f420ae1d21dec2fae52865e38feebb6b465ba28b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/include/assimp/mesh.h"
+          },
+          "hashes": {
+            "sha-256": "25f1d72b6a66cad8e4a3daf8613d13d3186c4df4c9524982f1a6c7fe448124d2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/include/assimp/aabb.h"
+          },
+          "hashes": {
+            "sha-256": "e5a90890e6c975e777ef20b1c3234b410ebd52d5c0ebc65a512c0c0492ad63b5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/include/assimp/light.h"
+          },
+          "hashes": {
+            "sha-256": "e126d01ba693eb2767ba4251f6f761fd56bed84ec8ea911edc26532aef61e4af"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/include/assimp/camera.h"
+          },
+          "hashes": {
+            "sha-256": "68dd7e58b38af38ab0838536b63f650fa7dbda683770711cfddaf375977e7dfd"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/include/assimp/material.h"
+          },
+          "hashes": {
+            "sha-256": "28480d25abde03030888e3b43c113890f630f31e8b8ddac1a4fbb37f1c7a41c0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/include/assimp/material.inl"
+          },
+          "hashes": {
+            "sha-256": "ab6aced1a311b4b79e149ed16fa2d620d271dfeadfc2e2113c1c1e9a9270eb94"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/include/assimp/anim.h"
+          },
+          "hashes": {
+            "sha-256": "6978c97be8ae9b8312ac778c9601c4b25ee9e947eca36034cc70865d23000c6b"
+          }
+        }
+      ]
+    }
+  ]
+}

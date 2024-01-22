@@ -1,0 +1,91 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.37.32825.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/contrib/zlib/infback.c"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "6a6cfe3d7e239d590692bc2664ac58d3ef92be30ff4cb3c6dbf5deed28f79eb5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/contrib/zlib/zutil.h"
+          },
+          "hashes": {
+            "sha-256": "cf94d865e3a9162c0571cba7f74c8f01efbdca26b981d6cc9c545d4c3991e3c2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/contrib/zlib/zlib.h"
+          },
+          "hashes": {
+            "sha-256": "a980a0d104198a53cc220c51ab5856e5be901bec8a2d02e0ee79a8754219dfed"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/contrib/zlib/zconf.h"
+          },
+          "hashes": {
+            "sha-256": "7f4e7f02c4c1b7ef830a8b4331e1ba04f34e97f2c0dcdd81f967ff16fd5ee6d0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/contrib/zlib/inftrees.h"
+          },
+          "hashes": {
+            "sha-256": "44084a93673386db6282dcb61d739c84518e10dff66d1c6850715137c827464c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/contrib/zlib/inflate.h"
+          },
+          "hashes": {
+            "sha-256": "e8d4a51b07694bf48cb91979c19974cf6a5ab0b8a09d26ec0d14df349230673e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/contrib/zlib/inffast.h"
+          },
+          "hashes": {
+            "sha-256": "7d8c1c873ce9bc346ad6005bb9d75cce5c6352aaf7395385be216a9452a34908"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/verycoolengine/verycoolengine/vendor/assimp/contrib/zlib/inffixed.h"
+          },
+          "hashes": {
+            "sha-256": "237ba710f090e432b62ebf963bee8b302867e9691406b2d3f8ee89ee7bfef9b0"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -106,7 +106,18 @@ project "assimp"
 	filter "configurations:Release"
 		runtime "Release"
 		optimize "on"
+		
+	filter "configurations:Tools_Debug"
+		defines {
+		"VCE_DEBUG",
+		"VCE_TOOLS"
+		}
+		symbols "on"
+	
 
-	filter "configurations:Dist"
-		runtime "Release"
+	filter "configurations:Tools_Release"
+		defines {
+		"VCE_RELEASE",
+		"VCE_TOOLS"
+		}
 		optimize "on"
